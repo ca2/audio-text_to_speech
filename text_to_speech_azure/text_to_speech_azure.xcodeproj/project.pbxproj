@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1FB939287251E60042849A /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1FB938287251E60042849A /* libaqua.dylib */; };
+		9A1FB99228726BDD0042849A /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1FB940287252240042849A /* libaqua.dylib */; };
+		9A81EB1F274ECF30003F38EC /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EAFE274ECF2F003F38EC /* speaker.cpp */; };
+		9A81EB20274ECF30003F38EC /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EAFF274ECF2F003F38EC /* framework.cpp */; };
+		9A81EB21274ECF30003F38EC /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EB04274ECF2F003F38EC /* _.cpp */; };
+		9A81EB22274ECF30003F38EC /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB0A274ECF2F003F38EC /* speaker.h */; };
+		9A81EB23274ECF30003F38EC /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB0D274ECF2F003F38EC /* framework.h */; };
+		9A81EB24274ECF30003F38EC /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EB13274ECF2F003F38EC /* _factory.cpp */; };
+		9A81EB25274ECF30003F38EC /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB14274ECF2F003F38EC /* _.h */; };
+		9A81F91127507BDB003F38EC /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A81F91027507BDB003F38EC /* libacme.dylib */; };
+		9A81F91327507BDB003F38EC /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A81F91227507BDB003F38EC /* libapex.dylib */; };
+		9A903F79284B2AF7006B9FD2 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB14274ECF2F003F38EC /* _.h */; };
+		9A903F7A284B2AF7006B9FD2 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB0D274ECF2F003F38EC /* framework.h */; };
+		9A903F7B284B2AF7006B9FD2 /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A81EB0A274ECF2F003F38EC /* speaker.h */; };
+		9A903F7E284B2AF7006B9FD2 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EB13274ECF2F003F38EC /* _factory.cpp */; };
+		9A903F7F284B2AF7006B9FD2 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EB04274ECF2F003F38EC /* _.cpp */; };
+		9A903F80284B2AF7006B9FD2 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EAFF274ECF2F003F38EC /* framework.cpp */; };
+		9A903F81284B2AF7006B9FD2 /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A81EAFE274ECF2F003F38EC /* speaker.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A1FB93F287252240042849A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A2818FE25242488009FA9CB;
+			remoteInfo = aqua;
+		};
+		9A1FB941287252240042849A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A8E9EB9282A3210005FF778;
+			remoteInfo = ios_aqua;
+		};
+		9A1FB98E28725FFE0042849A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2818FD25242488009FA9CB;
+			remoteInfo = aqua;
+		};
+		9A5DC5B62B7D9CBC00BE3C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A81898B2A71CC42008F470C;
+			remoteInfo = static_aqua;
+		};
+		9A98C13C2DC163AD00F00B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AEB75A316F78DF10085103B;
+			remoteInfo = api_azure;
+		};
+		9A98C13E2DC163AD00F00B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24E8A1904CFFD001AEFFB;
+			remoteInfo = ios_api_azure;
+		};
+		9A98C9CE2DC193D900F00B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEB75A216F78DF10085103B;
+			remoteInfo = api_azure;
+		};
+		9AB54F652D2BCDBC00AFBCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8E9E37282A3210005FF778;
+			remoteInfo = ios_aqua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A1FB938287251E60042849A /* libaqua.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libaqua.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1FB93A287252240042849A /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = ../../app/aqua/aqua.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "../../app-interface/api_azure/api_azure.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		9A81EAD4274ECAB3003F38EC /* libtext_to_speech_azure.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_azure.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A81EAFE274ECF2F003F38EC /* speaker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = speaker.cpp; sourceTree = "<group>"; };
+		9A81EAFF274ECF2F003F38EC /* framework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		9A81EB04274ECF2F003F38EC /* _.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
+		9A81EB0A274ECF2F003F38EC /* speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speaker.h; sourceTree = "<group>"; };
+		9A81EB0D274ECF2F003F38EC /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		9A81EB13274ECF2F003F38EC /* _factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
+		9A81EB14274ECF2F003F38EC /* _.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
+		9A81F91027507BDB003F38EC /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A81F91227507BDB003F38EC /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8C03552A281B400049B167 /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
+		9A8C03562A281B400049B167 /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
+		9A903F8A284B2AF7006B9FD2 /* libios_text_to_speech_azure.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_azure.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A81EAD2274ECAB3003F38EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1FB99228726BDD0042849A /* libaqua.dylib in Frameworks */,
+				9A1FB939287251E60042849A /* libaqua.dylib in Frameworks */,
+				9A81F91127507BDB003F38EC /* libacme.dylib in Frameworks */,
+				9A81F91327507BDB003F38EC /* libapex.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1FB93B287252240042849A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1FB940287252240042849A /* libaqua.dylib */,
+				9A1FB942287252240042849A /* libios_aqua.a */,
+				9A5DC5B72B7D9CBC00BE3C3B /* libstatic_aqua.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A81EACB274ECAB3003F38EC = {
+			isa = PBXGroup;
+			children = (
+				9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */,
+				9A1FB93A287252240042849A /* aqua.xcodeproj */,
+				9A81EAF7274ECF2F003F38EC /* text_to_speech_azure */,
+				9A81EAD5274ECAB3003F38EC /* Products */,
+				9A81F90F27507BDB003F38EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A81EAD5274ECAB3003F38EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A81EAD4274ECAB3003F38EC /* libtext_to_speech_azure.dylib */,
+				9A903F8A284B2AF7006B9FD2 /* libios_text_to_speech_azure.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A81EAF7274ECF2F003F38EC /* text_to_speech_azure */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C03562A281B400049B167 /* _____debug.xcconfig */,
+				9A8C03552A281B400049B167 /* _____release.xcconfig */,
+				9A81EB04274ECF2F003F38EC /* _.cpp */,
+				9A81EB14274ECF2F003F38EC /* _.h */,
+				9A81EB13274ECF2F003F38EC /* _factory.cpp */,
+				9A81EAFF274ECF2F003F38EC /* framework.cpp */,
+				9A81EB0D274ECF2F003F38EC /* framework.h */,
+				9A81EAFE274ECF2F003F38EC /* speaker.cpp */,
+				9A81EB0A274ECF2F003F38EC /* speaker.h */,
+			);
+			name = text_to_speech_azure;
+			sourceTree = "<group>";
+		};
+		9A81F90F27507BDB003F38EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A1FB938287251E60042849A /* libaqua.dylib */,
+				9A81F91027507BDB003F38EC /* libacme.dylib */,
+				9A81F91227507BDB003F38EC /* libapex.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A98C1362DC163AD00F00B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A98C13D2DC163AD00F00B1D /* libapi_azure.dylib */,
+				9A98C13F2DC163AD00F00B1D /* libios_api_azure.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A81EAD0274ECAB3003F38EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A81EB25274ECF30003F38EC /* _.h in Headers */,
+				9A81EB23274ECF30003F38EC /* framework.h in Headers */,
+				9A81EB22274ECF30003F38EC /* speaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A903F78284B2AF7006B9FD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A903F79284B2AF7006B9FD2 /* _.h in Headers */,
+				9A903F7A284B2AF7006B9FD2 /* framework.h in Headers */,
+				9A903F7B284B2AF7006B9FD2 /* speaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A81EAD3274ECAB3003F38EC /* text_to_speech_azure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A81EAD8274ECAB3003F38EC /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */;
+			buildPhases = (
+				9A81EAD0274ECAB3003F38EC /* Headers */,
+				9A81EAD1274ECAB3003F38EC /* Sources */,
+				9A81EAD2274ECAB3003F38EC /* Frameworks */,
+				9A4C33D12D6E883A00B99243 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A98C9CF2DC193D900F00B1D /* PBXTargetDependency */,
+				9A1FB98F28725FFE0042849A /* PBXTargetDependency */,
+			);
+			name = text_to_speech_azure;
+			productName = text_to_speech_azure;
+			productReference = 9A81EAD4274ECAB3003F38EC /* libtext_to_speech_azure.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		9A903F73284B2AF7006B9FD2 /* ios_text_to_speech_azure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A903F87284B2AF7006B9FD2 /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */;
+			buildPhases = (
+				9A903F78284B2AF7006B9FD2 /* Headers */,
+				9A903F7D284B2AF7006B9FD2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB54F662D2BCDBC00AFBCB1 /* PBXTargetDependency */,
+			);
+			name = ios_text_to_speech_azure;
+			productName = text_to_speech_azure;
+			productReference = 9A903F8A284B2AF7006B9FD2 /* libios_text_to_speech_azure.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A81EACC274ECAB3003F38EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				ORGANIZATIONNAME = "ca2 Software Development";
+				TargetAttributes = {
+					9A81EAD3274ECAB3003F38EC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A81EACF274ECAB3003F38EC /* Build configuration list for PBXProject "text_to_speech_azure" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A81EACB274ECAB3003F38EC;
+			productRefGroup = 9A81EAD5274ECAB3003F38EC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9A98C1362DC163AD00F00B1D /* Products */;
+					ProjectRef = 9A68D8DD2DBF5EA60077FC9B /* api_azure.xcodeproj */;
+				},
+				{
+					ProductGroup = 9A1FB93B287252240042849A /* Products */;
+					ProjectRef = 9A1FB93A287252240042849A /* aqua.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9A81EAD3274ECAB3003F38EC /* text_to_speech_azure */,
+				9A903F73284B2AF7006B9FD2 /* ios_text_to_speech_azure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9A1FB940287252240042849A /* libaqua.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libaqua.dylib;
+			remoteRef = 9A1FB93F287252240042849A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A1FB942287252240042849A /* libios_aqua.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_aqua.a;
+			remoteRef = 9A1FB941287252240042849A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A5DC5B72B7D9CBC00BE3C3B /* libstatic_aqua.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libstatic_aqua.a;
+			remoteRef = 9A5DC5B62B7D9CBC00BE3C3B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A98C13D2DC163AD00F00B1D /* libapi_azure.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libapi_azure.dylib;
+			remoteRef = 9A98C13C2DC163AD00F00B1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A98C13F2DC163AD00F00B1D /* libios_api_azure.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libios_api_azure.a;
+			remoteRef = 9A98C13E2DC163AD00F00B1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4C33D12D6E883A00B99243 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+				"$(WorkspaceDir)/output_copy.txt",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(WorkspaceDir)/time-$(PLATFORM_MODIFIER)/output/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". ${WorkspaceDir}/../operating_system/tool/bin/_on_after_build_dylib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A81EAD1274ECAB3003F38EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A81EB24274ECF30003F38EC /* _factory.cpp in Sources */,
+				9A81EB21274ECF30003F38EC /* _.cpp in Sources */,
+				9A81EB20274ECF30003F38EC /* framework.cpp in Sources */,
+				9A81EB1F274ECF30003F38EC /* speaker.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A903F7D284B2AF7006B9FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A903F7E284B2AF7006B9FD2 /* _factory.cpp in Sources */,
+				9A903F7F284B2AF7006B9FD2 /* _.cpp in Sources */,
+				9A903F80284B2AF7006B9FD2 /* framework.cpp in Sources */,
+				9A903F81284B2AF7006B9FD2 /* speaker.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A1FB98F28725FFE0042849A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = aqua;
+			targetProxy = 9A1FB98E28725FFE0042849A /* PBXContainerItemProxy */;
+		};
+		9A98C9CF2DC193D900F00B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = api_azure;
+			targetProxy = 9A98C9CE2DC193D900F00B1D /* PBXContainerItemProxy */;
+		};
+		9AB54F662D2BCDBC00AFBCB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_aqua;
+			targetProxy = 9AB54F652D2BCDBC00AFBCB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A81EAD6274ECAB3003F38EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8C03562A281B400049B167 /* _____debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = framework.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Debug;
+		};
+		9A81EAD7274ECAB3003F38EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8C03552A281B400049B167 /* _____release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = framework.h;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Release;
+		};
+		9A81EAD9274ECAB3003F38EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A81EADA274ECAB3003F38EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A903F88284B2AF7006B9FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				EXECUTABLE_EXTENSION = "$(STATIC_LIBRARY_EXTENSION:default=a)";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A903F89284B2AF7006B9FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				EXECUTABLE_EXTENSION = "$(STATIC_LIBRARY_EXTENSION:default=a)";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A81EACF274ECAB3003F38EC /* Build configuration list for PBXProject "text_to_speech_azure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A81EAD6274ECAB3003F38EC /* Debug */,
+				9A81EAD7274ECAB3003F38EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A81EAD8274ECAB3003F38EC /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A81EAD9274ECAB3003F38EC /* Debug */,
+				9A81EADA274ECAB3003F38EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A903F87284B2AF7006B9FD2 /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A903F88284B2AF7006B9FD2 /* Debug */,
+				9A903F89284B2AF7006B9FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A81EACC274ECAB3003F38EC /* Project object */;
+}

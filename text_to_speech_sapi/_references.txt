@@ -1,0 +1,2 @@
+audio/audio
+operating_system-windows/nano_speech_sapi

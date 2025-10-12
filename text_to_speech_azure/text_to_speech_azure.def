@@ -1,0 +1,5 @@
+LIBRARY "text_to_speech_azure"
+
+EXPORTS
+text_to_speech_azure_factory
+
