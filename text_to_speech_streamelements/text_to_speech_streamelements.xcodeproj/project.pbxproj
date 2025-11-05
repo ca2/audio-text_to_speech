@@ -16,7 +16,27 @@
 		9AA2AA402EBB234D00D2CCED /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA362EBB234D00D2CCED /* framework.cpp */; };
 		9AA2AA412EBB234D00D2CCED /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA392EBB234D00D2CCED /* speaker.cpp */; };
 		9AA2AA422EBB234D00D2CCED /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA332EBB234D00D2CCED /* _factory.cpp */; };
+		9AC361352EBB397D00BD8610 /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC361342EBB397D00BD8610 /* libacme.dylib */; };
+		9AC361372EBB397D00BD8610 /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC361362EBB397D00BD8610 /* libapex.dylib */; };
+		9AC361382EBB397D00BD8610 /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC3612E2EBB387E00BD8610 /* libaqua.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC361282EBB387E00BD8610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC361252EBB387E00BD8610 /* aqua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2818FD25242488009FA9CB;
+			remoteInfo = aqua;
+		};
+		9AC3612D2EBB387E00BD8610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC361252EBB387E00BD8610 /* aqua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A2818FE25242488009FA9CB;
+			remoteInfo = aqua;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9AA2A9EB2EBB1F0B00D2CCED /* libtext_to_speech_streamelements.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_streamelements.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +49,12 @@
 		9AA2AA372EBB234D00D2CCED /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
 		9AA2AA382EBB234D00D2CCED /* speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speaker.h; sourceTree = "<group>"; };
 		9AA2AA392EBB234D00D2CCED /* speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = speaker.cpp; sourceTree = "<group>"; };
+		9AC360C52EBB355B00BD8610 /* _____debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
+		9AC360C62EBB355B00BD8610 /* _____release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
+		9AC360CA2EBB372000BD8610 /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = /Users/camilo/code/main/source/app/aqua/aqua.xcodeproj; sourceTree = "<absolute>"; };
+		9AC361252EBB387E00BD8610 /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = /Users/camilo/code/main/source/app/aqua/aqua.xcodeproj; sourceTree = "<absolute>"; };
+		9AC361342EBB397D00BD8610 /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC361362EBB397D00BD8610 /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,15 +62,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC361352EBB397D00BD8610 /* libacme.dylib in Frameworks */,
+				9AC361372EBB397D00BD8610 /* libapex.dylib in Frameworks */,
+				9AC361382EBB397D00BD8610 /* libaqua.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A31D19F2EBB570F000AF09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9AA2A9E22EBB1F0B00D2CCED = {
 			isa = PBXGroup;
 			children = (
+				9AC360CA2EBB372000BD8610 /* aqua.xcodeproj */,
+				9AC360C52EBB355B00BD8610 /* _____debug.xcconfig */,
+				9AC360C62EBB355B00BD8610 /* _____release.xcconfig */,
 				9AA2AA312EBB234D00D2CCED /* _.h */,
 				9AA2AA322EBB234D00D2CCED /* _.cpp */,
 				9AA2AA332EBB234D00D2CCED /* _factory.cpp */,
@@ -55,6 +94,8 @@
 				9AA2AA382EBB234D00D2CCED /* speaker.h */,
 				9AA2AA392EBB234D00D2CCED /* speaker.cpp */,
 				9AA2A9EC2EBB1F0B00D2CCED /* Products */,
+				9AC361252EBB387E00BD8610 /* aqua.xcodeproj */,
+				9AC361332EBB397D00BD8610 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +105,23 @@
 				9AA2A9EB2EBB1F0B00D2CCED /* libtext_to_speech_streamelements.dylib */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC361262EBB387E00BD8610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC3612E2EBB387E00BD8610 /* libaqua.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC361332EBB397D00BD8610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC361342EBB397D00BD8610 /* libacme.dylib */,
+				9AC361362EBB397D00BD8610 /* libapex.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +153,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9AC361292EBB387E00BD8610 /* PBXTargetDependency */,
 			);
 			name = text_to_speech_streamelements;
 			packageProductDependencies = (
@@ -129,12 +188,32 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9AA2A9EC2EBB1F0B00D2CCED /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9A31D19F2EBB570F000AF09F /* Products */;
+					ProjectRef = 9AC360CA2EBB372000BD8610 /* aqua.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AC361262EBB387E00BD8610 /* Products */;
+					ProjectRef = 9AC361252EBB387E00BD8610 /* aqua.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9AA2A9EA2EBB1F0B00D2CCED /* text_to_speech_streamelements */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9AC3612E2EBB387E00BD8610 /* libaqua.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libaqua.dylib;
+			remoteRef = 9AC3612D2EBB387E00BD8610 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AA2A9E82EBB1F0B00D2CCED /* Sources */ = {
@@ -150,15 +229,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9AC361292EBB387E00BD8610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = aqua;
+			targetProxy = 9AC361282EBB387E00BD8610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		9AA2A9ED2EBB1F0B00D2CCED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC360C52EBB355B00BD8610 /* _____debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -185,12 +273,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = L8N5V6TZE5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -204,23 +293,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
 			};
 			name = Debug;
 		};
 		9AA2A9EE2EBB1F0B00D2CCED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC360C62EBB355B00BD8610 /* _____release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -251,8 +371,10 @@
 				DEVELOPMENT_TEAM = L8N5V6TZE5;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -260,37 +382,63 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
 			};
 			name = Release;
 		};
 		9AA2A9F02EBB1F0B00D2CCED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8N5V6TZE5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		9AA2A9F12EBB1F0B00D2CCED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8N5V6TZE5;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
