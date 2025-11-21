@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="userdatetime\_.h" />
+    <ClInclude Include="userdatetime\_userdatetime.h" />
+    <ClInclude Include="user\userex\hour_list_impact.h" />
+    <ClInclude Include="user\userex\minute_list_impact.h" />
+    <ClInclude Include="user\userex\second_list_impact.h" />
+    <ClInclude Include="user\userex\weekday_list_impact.h" />
+    <ClInclude Include="user\userex\_.h" />
+    <ClInclude Include="user\userex\_userex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="handler.cpp" />
+    <ClCompile Include="_.cpp" />
+    <ClCompile Include="_factory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E45C19C2-B0D7-49A0-9328-A23696720666}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+    <ProjectName>user_text_to_speech</ProjectName>
+    <RootNamespace>app_core</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+    <UseOfStl>c++_static</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <ThumbMode>Disabled</ThumbMode>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+    <UseOfStl>c++_static</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <ThumbMode>Disabled</ThumbMode>
+    <AndroidAPILevel>android-26</AndroidAPILevel>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <OutDir>$(TimeDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(TimeDir)intermediate\$(PlatformName)\$(Configuration)\$(RootNamespace)\$(ProjectName)\</IntDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <TargetName>lib$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <OutDir>$(TimeDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(TimeDir)intermediate\$(PlatformName)\$(Configuration)\$(RootNamespace)\$(ProjectName)\</IntDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <TargetName>lib$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <OutDir>$(TimeDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(TimeDir)intermediate\$(PlatformName)\$(Configuration)\$(RootNamespace)\$(ProjectName)\</IntDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <TargetName>lib$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <OutDir>$(TimeDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(TimeDir)intermediate\$(PlatformName)\$(Configuration)\$(RootNamespace)\$(ProjectName)\</IntDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <TargetName>lib$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PreprocessorDefinitions>_AUDIO_LIBRARY;CUBE;DEBUG</PreprocessorDefinitions>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CppLanguageStandard>
+      </CppLanguageStandard>
+      <AdditionalOptions>-Wno-attributes -Wno-sign-compare -Wno-comment -Wno-strict-overflow -Wno-unused-local-typedefs -Wno-unknown-pragmas -Wno-unused-function -Wno-unused-variable -Wno-unused-value -Wno-reorder -Wno-overloaded-virtual -std=c++20 -Wno-char-subscripts</AdditionalOptions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <ObjectFileName>$(IntDir)%(RelativeDir)%(filename).o</ObjectFileName>
+    </ClCompile>
+    <Link />
+    <Link>
+      <LibraryDependencies>baseid3lib;aura;base;axis;aurapcre;aura;ace;$(StlLibraryName);log;android;m</LibraryDependencies>
+      <SharedLibrarySearchPath>%(SharedLibrarySearchPath);$(Sysroot)\usr\lib</SharedLibrarySearchPath>
+      <AdditionalLibraryDirectories>$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\i686-linux-android\$(ToolchainVersion);$(StlLibraryPath)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalOptions>-Wno-attributes -Wno-sign-compare -Wno-comment -Wno-strict-overflow -Wno-unused-local-typedefs -Wno-unknown-pragmas -Wno-unused-function -Wno-unused-variable -Wno-unused-value -Wno-reorder -Wno-overloaded-virtual -std=c++20 -Wno-char-subscripts</AdditionalOptions>
+      <PreprocessorDefinitions>_AUDIO_LIBRARY;CUBE;DEBUG</PreprocessorDefinitions>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>
+      </CppLanguageStandard>
+      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <ObjectFileName>$(IntDir)%(RelativeDir)%(filename).o</ObjectFileName>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>baseid3lib;aura;base;axis;aurapcre;aura;$(StlLibraryName);log;android;m</LibraryDependencies>
+      <SharedLibrarySearchPath>%(SharedLibrarySearchPath);$(Sysroot)\usr\lib</SharedLibrarySearchPath>
+      <AdditionalLibraryDirectories>$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainVersion)\$(PlatformShortName);$(StlLibraryPath)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <DataLevelLinking>true</DataLevelLinking>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>
+      </CppLanguageStandard>
+      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PreprocessorDefinitions>_AUDIO_LIBRARY;CUBE</PreprocessorDefinitions>
+      <AdditionalOptions>-Wno-attributes -Wno-sign-compare -Wno-comment -Wno-strict-overflow -Wno-unused-local-typedefs -Wno-unknown-pragmas -Wno-unused-function -Wno-unused-variable -Wno-unused-value -Wno-reorder -Wno-overloaded-virtual -std=c++20 -Wno-char-subscripts</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <ObjectFileName>$(IntDir)%(RelativeDir)%(filename).o</ObjectFileName>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\$(ToolchainName)\$(ToolchainVersion)\$(PlatformShortName);$(StlLibraryPath)</AdditionalLibraryDirectories>
+      <LibraryDependencies>baseid3lib;aura;base;axis;aurapcre;aura;$(StlLibraryName);log;android;m</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <DataLevelLinking>true</DataLevelLinking>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>
+      </CppLanguageStandard>
+      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_AUDIO_LIBRARY;CUBE</PreprocessorDefinitions>
+      <AdditionalOptions>-Wno-attributes -Wno-sign-compare -Wno-comment -Wno-strict-overflow -Wno-unused-local-typedefs -Wno-unknown-pragmas -Wno-unused-function -Wno-unused-variable -Wno-unused-value -Wno-reorder -Wno-overloaded-virtual -std=c++20 -Wno-char-subscripts</AdditionalOptions>
+      <ObjectFileName>$(IntDir)%(RelativeDir)%(filename).o</ObjectFileName>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(OutDir);$(__operating_system)storage-android\third\library\$(Platform)\$(Configuration)\;$(__operating_system)storage-android\library\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(ToolchainPrebuiltPath)\lib\gcc\i686-linux-android\$(ToolchainVersion);$(StlLibraryPath)</AdditionalLibraryDirectories>
+      <LibraryDependencies>baseid3lib;aura;base;axis;aurapcre;aura;$(StlLibraryName);log;android;m</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

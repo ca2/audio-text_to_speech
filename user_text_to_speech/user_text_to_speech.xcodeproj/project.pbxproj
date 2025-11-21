@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8BF9C5299EFD8400EEF4B8 /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8BF9C4299EFD8400EEF4B8 /* libacme.dylib */; };
+		9A8BF9C7299EFD8400EEF4B8 /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8BF9C6299EFD8400EEF4B8 /* libapex.dylib */; };
+		9A8BF9C9299EFD8400EEF4B8 /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8BF9C8299EFD8400EEF4B8 /* libaqua.dylib */; };
+		9A8BF9CB299EFD8400EEF4B8 /* libaura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8BF9CA299EFD8400EEF4B8 /* libaura.dylib */; };
+		9AA5DFF828ED39A2009D7F81 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFD428ED39A1009D7F81 /* aaa__library.h */; };
+		9AA5DFF928ED39A2009D7F81 /* _user_text_to_speech.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFD528ED39A1009D7F81 /* _user_text_to_speech.h */; };
+		9AA5DFFA28ED39A2009D7F81 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFD928ED39A1009D7F81 /* framework.cpp */; };
+		9AA5DFFD28ED39A2009D7F81 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFE928ED39A1009D7F81 /* _.cpp */; };
+		9AA5DFFE28ED39A2009D7F81 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEA28ED39A1009D7F81 /* resource.h */; };
+		9AA5DFFF28ED39A2009D7F81 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEC28ED39A1009D7F81 /* framework.h */; };
+		9AA5E00028ED39A2009D7F81 /* form_handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEE28ED39A1009D7F81 /* form_handler.h */; };
+		9AA5E00128ED39A2009D7F81 /* form_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFF128ED39A1009D7F81 /* form_handler.cpp */; };
+		9AA5E00228ED39A2009D7F81 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFF228ED39A1009D7F81 /* _factory.cpp */; };
+		9AA5E00328ED39A2009D7F81 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFF728ED39A1009D7F81 /* _.h */; };
+		9AA5E00628ED39DF009D7F81 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFF728ED39A1009D7F81 /* _.h */; };
+		9AA5E00728ED39DF009D7F81 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEA28ED39A1009D7F81 /* resource.h */; };
+		9AA5E00828ED39DF009D7F81 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFD428ED39A1009D7F81 /* aaa__library.h */; };
+		9AA5E00928ED39DF009D7F81 /* form_handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEE28ED39A1009D7F81 /* form_handler.h */; };
+		9AA5E00A28ED39DF009D7F81 /* _user_text_to_speech.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFD528ED39A1009D7F81 /* _user_text_to_speech.h */; };
+		9AA5E00B28ED39DF009D7F81 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5DFEC28ED39A1009D7F81 /* framework.h */; };
+		9AA5E00D28ED39DF009D7F81 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFF228ED39A1009D7F81 /* _factory.cpp */; };
+		9AA5E00E28ED39DF009D7F81 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFE928ED39A1009D7F81 /* _.cpp */; };
+		9AA5E00F28ED39DF009D7F81 /* form_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFF128ED39A1009D7F81 /* form_handler.cpp */; };
+		9AA5E01028ED39DF009D7F81 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5DFD928ED39A1009D7F81 /* framework.cpp */; };
+		9AAFC2442A8B3A41005D10AB /* libaxis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAFC2432A8B3A41005D10AB /* libaxis.dylib */; };
+		9AAFC2462A8B3A47005D10AB /* libberg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAFC2452A8B3A47005D10AB /* libberg.dylib */; };
+		9AAFC2482A8B3AB2005D10AB /* libbred.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAFC2472A8B3AB2005D10AB /* libbred.dylib */; };
+		9AAFC2492A8B3ABB005D10AB /* libcore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5E01C28ED3A7F009D7F81 /* libcore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A88DAD92ACDB5C000A34627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE63303252A5A0300BED5B8;
+			remoteInfo = core;
+		};
+		9A88DADF2ACDB5CE00A34627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACA44792453EAEE007277DD;
+			remoteInfo = audio;
+		};
+		9AA2A9922EBB1C8B00D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A81EAD4274ECAB3003F38EC;
+			remoteInfo = text_to_speech_azure;
+		};
+		9AA2A9A62EBB1C8B00D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A81EAE4274ECAF3003F38EC;
+			remoteInfo = text_to_speech_streamelements;
+		};
+		9AA2A9BC2EBB1C8B00D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A81EAE4274ECAF3003F38EC;
+			remoteInfo = text_to_speech_google;
+		};
+		9AA2A9F22EBB203600D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA2A9CA2EBB1E3400D2CCED;
+			remoteInfo = text_to_speech_azure;
+		};
+		9AA2A9F42EBB203600D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA2A9DA2EBB1EDB00D2CCED;
+			remoteInfo = text_to_speech_google;
+		};
+		9AA2A9F62EBB203600D2CCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA2A9EA2EBB1F0B00D2CCED;
+			remoteInfo = text_to_speech_streamelements;
+		};
+		9AA3EEFE2A8BE62B004283CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9ACA447A2453EAEE007277DD;
+			remoteInfo = audio;
+		};
+		9AA3EF002A8BE62B004283CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9ACA482A2453EEAE007277DD;
+			remoteInfo = ios_audio;
+		};
+		9AA3EF022A8BE62B004283CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A818D5B2A71CF67008F470C;
+			remoteInfo = static_audio;
+		};
+		9AA5E01B28ED3A7F009D7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE63304252A5A0300BED5B8;
+			remoteInfo = core;
+		};
+		9AA5E01D28ED3A7F009D7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE6421A284AA62D0079EBA0;
+			remoteInfo = ios_core;
+		};
+		9AA5E02828ED3AAB009D7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE63FCC284AA62D0079EBA0;
+			remoteInfo = ios_core;
+		};
+		9AB732742B6F54A4001C57A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACA47722453EEAE007277DD;
+			remoteInfo = ios_audio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = text_to_speech_azure.xcodeproj; path = "../../audio-text_to_speech/text_to_speech_azure/text_to_speech_azure.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = text_to_speech_google.xcodeproj; path = "../../audio-text_to_speech/text_to_speech_google/text_to_speech_google.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = text_to_speech_streamelements.xcodeproj; path = "../../audio-text_to_speech/text_to_speech_streamelements/text_to_speech_streamelements.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		9A8BF9C4299EFD8400EEF4B8 /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8BF9C6299EFD8400EEF4B8 /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8BF9C8299EFD8400EEF4B8 /* libaqua.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libaqua.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8BF9CA299EFD8400EEF4B8 /* libaura.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libaura.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8C035A2A281E200049B167 /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
+		9A8C035C2A281E200049B167 /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
+		9AA5DFB428ED392F009D7F81 /* libuser_text_to_speech.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libuser_text_to_speech.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA5DFD428ED39A1009D7F81 /* aaa__library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaa__library.h; sourceTree = "<group>"; };
+		9AA5DFD528ED39A1009D7F81 /* _user_text_to_speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _user_text_to_speech.h; sourceTree = "<group>"; };
+		9AA5DFD928ED39A1009D7F81 /* framework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		9AA5DFE928ED39A1009D7F81 /* _.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
+		9AA5DFEA28ED39A1009D7F81 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		9AA5DFEC28ED39A1009D7F81 /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		9AA5DFEE28ED39A1009D7F81 /* form_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = form_handler.h; sourceTree = "<group>"; };
+		9AA5DFF128ED39A1009D7F81 /* form_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = form_handler.cpp; sourceTree = "<group>"; };
+		9AA5DFF228ED39A1009D7F81 /* _factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
+		9AA5DFF728ED39A1009D7F81 /* _.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
+		9AA5E01528ED39DF009D7F81 /* libios_user_text_to_speech.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_user_text_to_speech.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = core.xcodeproj; path = ../../app/core/core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = audio.xcodeproj; path = ../../audio/audio/audio.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AAFC2432A8B3A41005D10AB /* libaxis.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libaxis.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAFC2452A8B3A47005D10AB /* libberg.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libberg.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAFC2472A8B3AB2005D10AB /* libbred.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libbred.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA5DFB228ED392F009D7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAFC2492A8B3ABB005D10AB /* libcore.dylib in Frameworks */,
+				9AAFC2482A8B3AB2005D10AB /* libbred.dylib in Frameworks */,
+				9AAFC2462A8B3A47005D10AB /* libberg.dylib in Frameworks */,
+				9AAFC2442A8B3A41005D10AB /* libaxis.dylib in Frameworks */,
+				9A8BF9C5299EFD8400EEF4B8 /* libacme.dylib in Frameworks */,
+				9A8BF9C7299EFD8400EEF4B8 /* libapex.dylib in Frameworks */,
+				9A8BF9C9299EFD8400EEF4B8 /* libaqua.dylib in Frameworks */,
+				9A8BF9CB299EFD8400EEF4B8 /* libaura.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8BF9C3299EFD8300EEF4B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAFC2472A8B3AB2005D10AB /* libbred.dylib */,
+				9AAFC2452A8B3A47005D10AB /* libberg.dylib */,
+				9AAFC2432A8B3A41005D10AB /* libaxis.dylib */,
+				9A8BF9C4299EFD8400EEF4B8 /* libacme.dylib */,
+				9A8BF9C6299EFD8400EEF4B8 /* libapex.dylib */,
+				9A8BF9C8299EFD8400EEF4B8 /* libaqua.dylib */,
+				9A8BF9CA299EFD8400EEF4B8 /* libaura.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AA2A9872EBB1C8B00D2CCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2A9932EBB1C8B00D2CCED /* libtext_to_speech_azure.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA2A9982EBB1C8B00D2CCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2A9A72EBB1C8B00D2CCED /* libtext_to_speech_streamelements.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA2A9AE2EBB1C8B00D2CCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2A9BD2EBB1C8B00D2CCED /* libtext_to_speech_google.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA3EEF92A8BE62B004283CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA3EEFF2A8BE62B004283CA /* libaudio.dylib */,
+				9AA3EF012A8BE62B004283CA /* libios_audio.a */,
+				9AA3EF032A8BE62B004283CA /* libstatic_audio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA5DFAB28ED392F009D7F81 = {
+			isa = PBXGroup;
+			children = (
+				9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */,
+				9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */,
+				9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */,
+				9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */,
+				9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */,
+				9AA5DFD328ED39A1009D7F81 /* user_text_to_speech */,
+				9AA5DFB528ED392F009D7F81 /* Products */,
+				9A8BF9C3299EFD8300EEF4B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA5DFB528ED392F009D7F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5DFB428ED392F009D7F81 /* libuser_text_to_speech.dylib */,
+				9AA5E01528ED39DF009D7F81 /* libios_user_text_to_speech.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA5DFD328ED39A1009D7F81 /* user_text_to_speech */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C035A2A281E200049B167 /* _____debug.xcconfig */,
+				9A8C035C2A281E200049B167 /* _____release.xcconfig */,
+				9AA5DFE928ED39A1009D7F81 /* _.cpp */,
+				9AA5DFF228ED39A1009D7F81 /* _factory.cpp */,
+				9AA5DFD928ED39A1009D7F81 /* framework.cpp */,
+				9AA5DFF128ED39A1009D7F81 /* form_handler.cpp */,
+				9AA5DFF728ED39A1009D7F81 /* _.h */,
+				9AA5DFD528ED39A1009D7F81 /* _user_text_to_speech.h */,
+				9AA5DFD428ED39A1009D7F81 /* aaa__library.h */,
+				9AA5DFEC28ED39A1009D7F81 /* framework.h */,
+				9AA5DFEE28ED39A1009D7F81 /* form_handler.h */,
+				9AA5DFEA28ED39A1009D7F81 /* resource.h */,
+			);
+			name = user_text_to_speech;
+			sourceTree = "<group>";
+		};
+		9AA5E01728ED3A7F009D7F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5E01C28ED3A7F009D7F81 /* libcore.dylib */,
+				9AA5E01E28ED3A7F009D7F81 /* libios_core.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AA5DFB028ED392F009D7F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5E00328ED39A2009D7F81 /* _.h in Headers */,
+				9AA5DFFE28ED39A2009D7F81 /* resource.h in Headers */,
+				9AA5DFF828ED39A2009D7F81 /* aaa__library.h in Headers */,
+				9AA5E00028ED39A2009D7F81 /* form_handler.h in Headers */,
+				9AA5DFF928ED39A2009D7F81 /* _user_text_to_speech.h in Headers */,
+				9AA5DFFF28ED39A2009D7F81 /* framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5E00528ED39DF009D7F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5E00628ED39DF009D7F81 /* _.h in Headers */,
+				9AA5E00728ED39DF009D7F81 /* resource.h in Headers */,
+				9AA5E00828ED39DF009D7F81 /* aaa__library.h in Headers */,
+				9AA5E00928ED39DF009D7F81 /* form_handler.h in Headers */,
+				9AA5E00A28ED39DF009D7F81 /* _user_text_to_speech.h in Headers */,
+				9AA5E00B28ED39DF009D7F81 /* framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AA5DFB328ED392F009D7F81 /* user_text_to_speech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA5DFB828ED392F009D7F81 /* Build configuration list for PBXNativeTarget "user_text_to_speech" */;
+			buildPhases = (
+				9AA5DFB028ED392F009D7F81 /* Headers */,
+				9AA5DFB128ED392F009D7F81 /* Sources */,
+				9AA5DFB228ED392F009D7F81 /* Frameworks */,
+				9A4C33AA2D6E86AF00B99243 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA2A9F32EBB203600D2CCED /* PBXTargetDependency */,
+				9AA2A9F52EBB203600D2CCED /* PBXTargetDependency */,
+				9AA2A9F72EBB203600D2CCED /* PBXTargetDependency */,
+				9A88DAE02ACDB5CE00A34627 /* PBXTargetDependency */,
+				9A88DADA2ACDB5C000A34627 /* PBXTargetDependency */,
+			);
+			name = user_text_to_speech;
+			productName = user_text_to_speech;
+			productReference = 9AA5DFB428ED392F009D7F81 /* libuser_text_to_speech.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		9AA5E00428ED39DF009D7F81 /* ios_user_text_to_speech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA5E01228ED39DF009D7F81 /* Build configuration list for PBXNativeTarget "ios_user_text_to_speech" */;
+			buildPhases = (
+				9AA5E00528ED39DF009D7F81 /* Headers */,
+				9AA5E00C28ED39DF009D7F81 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB732752B6F54A4001C57A7 /* PBXTargetDependency */,
+				9AA5E02928ED3AAB009D7F81 /* PBXTargetDependency */,
+			);
+			name = ios_user_text_to_speech;
+			productName = user_text_to_speech;
+			productReference = 9AA5E01528ED39DF009D7F81 /* libios_user_text_to_speech.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA5DFAC28ED392F009D7F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "ca2 Software Development";
+				TargetAttributes = {
+					9AA5DFB328ED392F009D7F81 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AA5DFAF28ED392F009D7F81 /* Build configuration list for PBXProject "user_text_to_speech" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA5DFAB28ED392F009D7F81;
+			productRefGroup = 9AA5DFB528ED392F009D7F81 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9AA3EEF92A8BE62B004283CA /* Products */;
+					ProjectRef = 9AA5E01F28ED3A9B009D7F81 /* audio.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AA5E01728ED3A7F009D7F81 /* Products */;
+					ProjectRef = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AA2A9872EBB1C8B00D2CCED /* Products */;
+					ProjectRef = 9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AA2A9AE2EBB1C8B00D2CCED /* Products */;
+					ProjectRef = 9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AA2A9982EBB1C8B00D2CCED /* Products */;
+					ProjectRef = 9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9AA5DFB328ED392F009D7F81 /* user_text_to_speech */,
+				9AA5E00428ED39DF009D7F81 /* ios_user_text_to_speech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9AA2A9932EBB1C8B00D2CCED /* libtext_to_speech_azure.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtext_to_speech_azure.dylib;
+			remoteRef = 9AA2A9922EBB1C8B00D2CCED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA2A9A72EBB1C8B00D2CCED /* libtext_to_speech_streamelements.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtext_to_speech_streamelements.dylib;
+			remoteRef = 9AA2A9A62EBB1C8B00D2CCED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA2A9BD2EBB1C8B00D2CCED /* libtext_to_speech_google.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtext_to_speech_google.dylib;
+			remoteRef = 9AA2A9BC2EBB1C8B00D2CCED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA3EEFF2A8BE62B004283CA /* libaudio.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libaudio.dylib;
+			remoteRef = 9AA3EEFE2A8BE62B004283CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA3EF012A8BE62B004283CA /* libios_audio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_audio.a;
+			remoteRef = 9AA3EF002A8BE62B004283CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA3EF032A8BE62B004283CA /* libstatic_audio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libstatic_audio.a;
+			remoteRef = 9AA3EF022A8BE62B004283CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA5E01C28ED3A7F009D7F81 /* libcore.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libcore.dylib;
+			remoteRef = 9AA5E01B28ED3A7F009D7F81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AA5E01E28ED3A7F009D7F81 /* libios_core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_core.a;
+			remoteRef = 9AA5E01D28ED3A7F009D7F81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4C33AA2D6E86AF00B99243 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+				"$(WorkspaceDir)/output_copy.txt",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(WorkspaceDir)/time-$(PLATFORM_MODIFIER)/output/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". ${WorkspaceDir}/../operating_system/tool/bin/_on_after_build_dylib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA5DFB128ED392F009D7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5E00228ED39A2009D7F81 /* _factory.cpp in Sources */,
+				9AA5DFFD28ED39A2009D7F81 /* _.cpp in Sources */,
+				9AA5E00128ED39A2009D7F81 /* form_handler.cpp in Sources */,
+				9AA5DFFA28ED39A2009D7F81 /* framework.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5E00C28ED39DF009D7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5E00D28ED39DF009D7F81 /* _factory.cpp in Sources */,
+				9AA5E00E28ED39DF009D7F81 /* _.cpp in Sources */,
+				9AA5E00F28ED39DF009D7F81 /* form_handler.cpp in Sources */,
+				9AA5E01028ED39DF009D7F81 /* framework.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A88DADA2ACDB5C000A34627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = core;
+			targetProxy = 9A88DAD92ACDB5C000A34627 /* PBXContainerItemProxy */;
+		};
+		9A88DAE02ACDB5CE00A34627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = audio;
+			targetProxy = 9A88DADF2ACDB5CE00A34627 /* PBXContainerItemProxy */;
+		};
+		9AA2A9F32EBB203600D2CCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = text_to_speech_azure;
+			targetProxy = 9AA2A9F22EBB203600D2CCED /* PBXContainerItemProxy */;
+		};
+		9AA2A9F52EBB203600D2CCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = text_to_speech_google;
+			targetProxy = 9AA2A9F42EBB203600D2CCED /* PBXContainerItemProxy */;
+		};
+		9AA2A9F72EBB203600D2CCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = text_to_speech_streamelements;
+			targetProxy = 9AA2A9F62EBB203600D2CCED /* PBXContainerItemProxy */;
+		};
+		9AA5E02928ED3AAB009D7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_core;
+			targetProxy = 9AA5E02828ED3AAB009D7F81 /* PBXContainerItemProxy */;
+		};
+		9AB732752B6F54A4001C57A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_audio;
+			targetProxy = 9AB732742B6F54A4001C57A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AA5DFB628ED392F009D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8C035A2A281E200049B167 /* _____debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Debug;
+		};
+		9AA5DFB728ED392F009D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8C035C2A281E200049B167 /* _____release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(WorkspaceDir)/../operating_system/storage-$(PLATFORM_MODIFIER)/$(CONFIGURATION)/library",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/port/include",
+					"$(WorkspaceDir)/source/app/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					.,
+					"$(WorkspaceDir)/source",
+					"$(WorkspaceDir)/source/app",
+					"$(WorkspaceDir)/source/app/_include",
+					"$(WorkspaceDir)/operating_system",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration_selection/$(CONFIGURATION)",
+					"$(WorkspaceDir)/port/_",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/..",
+					"$(PROJECT_DIR)/../..",
+					"$(HOME)/sensitive/sensitive/include",
+				);
+				USE_HEADERMAP = NO;
+				WorkspaceDir = "$(SRCROOT)/../../..";
+			};
+			name = Release;
+		};
+		9AA5DFB928ED392F009D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9AA5DFBA28ED392F009D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				MACH_O_TYPE = mh_dylib;
+				PLATFORM_MODIFIER = macos;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9AA5E01328ED39DF009D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AA5E01428ED39DF009D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8N5V6TZE5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA5DFAF28ED392F009D7F81 /* Build configuration list for PBXProject "user_text_to_speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA5DFB628ED392F009D7F81 /* Debug */,
+				9AA5DFB728ED392F009D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA5DFB828ED392F009D7F81 /* Build configuration list for PBXNativeTarget "user_text_to_speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA5DFB928ED392F009D7F81 /* Debug */,
+				9AA5DFBA28ED392F009D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA5E01228ED39DF009D7F81 /* Build configuration list for PBXNativeTarget "ios_user_text_to_speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA5E01328ED39DF009D7F81 /* Debug */,
+				9AA5E01428ED39DF009D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA5DFAC28ED392F009D7F81 /* Project object */;
+}

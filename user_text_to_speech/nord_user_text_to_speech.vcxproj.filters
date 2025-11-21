@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d26c2721-54e0-415f-aadd-0bbeeb848f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cae7179a-b2e3-4626-a8d3-d483807ffb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\user">
+      <UniqueIdentifier>{b28e891b-b3b3-4b66-a946-0fa7c18dde05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\user\userex">
+      <UniqueIdentifier>{74387cd5-196e-4dac-8b3a-f97f95581cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\userdatetime">
+      <UniqueIdentifier>{19a8b2f0-c115-40d2-b4e5-325a4e7f8851}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\weekday_list_impact.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\second_list_impact.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\minute_list_impact.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\hour_list_impact.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\_userex.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="user\userex\_.h">
+      <Filter>Header Files\user\userex</Filter>
+    </ClInclude>
+    <ClInclude Include="userdatetime\_userdatetime.h">
+      <Filter>Header Files\userdatetime</Filter>
+    </ClInclude>
+    <ClInclude Include="userdatetime\_.h">
+      <Filter>Header Files\userdatetime</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

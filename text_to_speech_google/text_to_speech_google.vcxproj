@@ -783,9 +783,6 @@
     <ProjectReference Include="..\..\..\source\app\apex\apex.vcxproj">
       <Project>{e000ffaf-392f-4e32-bf51-777ca238991f}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\app-interface\api_google\api_google.vcxproj">
-      <Project>{df0b85e2-ed6b-407e-ba65-eba1813ce73a}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\audio\audio\audio.vcxproj">
       <Project>{20fd0446-aa14-4013-84e0-b5cb63fa354f}</Project>
     </ProjectReference>
