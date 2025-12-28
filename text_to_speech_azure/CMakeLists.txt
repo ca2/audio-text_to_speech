@@ -20,7 +20,7 @@ list(APPEND library_references
    )
 
 
-if (MSVC)
+if(${WIN32})
     set(LIBCXX_TARGETING_MSVC ON)
 endif()
 
@@ -39,7 +39,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 
 add_dependencies(${PROJECT_NAME} api_azure)
 
-if (MSVC)
+if(${WIN32})
 
 
    target_compile_options(${PROJECT_NAME} PRIVATE "/MD$<$<CONFIG:Debug>:d>")
