@@ -38,6 +38,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9A742B3D2F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A742AAD2F36903E00A86E1C;
+			remoteInfo = ios_text_to_speech_azure;
+		};
+		9A742B3F2F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A742AE02F36904200A86E1C;
+			remoteInfo = ios_text_to_speech_google;
+		};
+		9A742B412F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A742B0D2F36904500A86E1C;
+			remoteInfo = ios_text_to_speech_streamelements;
+		};
+		9A742B452F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDB2EBB1AEF0074E067 /* text_to_speech_azure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A742AC52F36903E00A86E1C;
+			remoteInfo = ios_text_to_speech_azure;
+		};
+		9A742B482F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEDE2EBB1AEF0074E067 /* text_to_speech_google.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A742AF82F36904200A86E1C;
+			remoteInfo = ios_text_to_speech_google;
+		};
+		9A742B4B2F36916300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3CFEF42EBB1B010074E067 /* text_to_speech_streamelements.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A742B232F36904500A86E1C;
+			remoteInfo = ios_text_to_speech_streamelements;
+		};
 		9A88DAD92ACDB5C000A34627 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9AA5E01628ED3A7F009D7F81 /* core.xcodeproj */;
@@ -211,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA2A9932EBB1C8B00D2CCED /* libtext_to_speech_azure.dylib */,
+				9A742B462F36916300A86E1C /* libios_text_to_speech_azure.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA2A9A72EBB1C8B00D2CCED /* libtext_to_speech_streamelements.dylib */,
+				9A742B4C2F36916300A86E1C /* libios_text_to_speech_streamelements.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA2A9BD2EBB1C8B00D2CCED /* libtext_to_speech_google.dylib */,
+				9A742B492F36916300A86E1C /* libios_text_to_speech_google.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -357,6 +402,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A742B3E2F36916300A86E1C /* PBXTargetDependency */,
+				9A742B402F36916300A86E1C /* PBXTargetDependency */,
+				9A742B422F36916300A86E1C /* PBXTargetDependency */,
 				9AB732752B6F54A4001C57A7 /* PBXTargetDependency */,
 				9AA5E02928ED3AAB009D7F81 /* PBXTargetDependency */,
 			);
@@ -422,6 +470,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		9A742B462F36916300A86E1C /* libios_text_to_speech_azure.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_text_to_speech_azure.a;
+			remoteRef = 9A742B452F36916300A86E1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A742B492F36916300A86E1C /* libios_text_to_speech_google.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_text_to_speech_google.a;
+			remoteRef = 9A742B482F36916300A86E1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A742B4C2F36916300A86E1C /* libios_text_to_speech_streamelements.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libios_text_to_speech_streamelements.a;
+			remoteRef = 9A742B4B2F36916300A86E1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		9AA2A9932EBB1C8B00D2CCED /* libtext_to_speech_azure.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
@@ -529,6 +598,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9A742B3E2F36916300A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_text_to_speech_azure;
+			targetProxy = 9A742B3D2F36916300A86E1C /* PBXContainerItemProxy */;
+		};
+		9A742B402F36916300A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_text_to_speech_google;
+			targetProxy = 9A742B3F2F36916300A86E1C /* PBXContainerItemProxy */;
+		};
+		9A742B422F36916300A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_text_to_speech_streamelements;
+			targetProxy = 9A742B412F36916300A86E1C /* PBXContainerItemProxy */;
+		};
 		9A88DADA2ACDB5C000A34627 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = core;

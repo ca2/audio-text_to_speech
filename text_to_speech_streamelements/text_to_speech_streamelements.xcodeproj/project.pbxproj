@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A742B112F36904500A86E1C /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA382EBB234D00D2CCED /* speaker.h */; };
+		9A742B122F36904500A86E1C /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA312EBB234D00D2CCED /* _.h */; };
+		9A742B132F36904500A86E1C /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA352EBB234D00D2CCED /* framework.h */; };
+		9A742B142F36904500A86E1C /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA342EBB234D00D2CCED /* aaa__library.h */; };
+		9A742B152F36904500A86E1C /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA372EBB234D00D2CCED /* resource.h */; };
+		9A742B172F36904500A86E1C /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA322EBB234D00D2CCED /* _.cpp */; };
+		9A742B182F36904500A86E1C /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA362EBB234D00D2CCED /* framework.cpp */; };
+		9A742B192F36904500A86E1C /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA392EBB234D00D2CCED /* speaker.cpp */; };
+		9A742B1A2F36904500A86E1C /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA332EBB234D00D2CCED /* _factory.cpp */; };
 		9AA2AA3A2EBB234D00D2CCED /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA382EBB234D00D2CCED /* speaker.h */; };
 		9AA2AA3B2EBB234D00D2CCED /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA312EBB234D00D2CCED /* _.h */; };
 		9AA2AA3C2EBB234D00D2CCED /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA352EBB234D00D2CCED /* framework.h */; };
@@ -22,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9A742B3B2F36910200A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC360CA2EBB372000BD8610 /* aqua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8E9E37282A3210005FF778;
+			remoteInfo = ios_aqua;
+		};
 		9AC361282EBB387E00BD8610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9AC361252EBB387E00BD8610 /* aqua.xcodeproj */;
@@ -39,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A742B232F36904500A86E1C /* libios_text_to_speech_streamelements.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_streamelements.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA2A9EB2EBB1F0B00D2CCED /* libtext_to_speech_streamelements.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_streamelements.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA2AA312EBB234D00D2CCED /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
 		9AA2AA322EBB234D00D2CCED /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
@@ -58,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A742B1B2F36904500A86E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9E92EBB1F0B00D2CCED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA2A9EB2EBB1F0B00D2CCED /* libtext_to_speech_streamelements.dylib */,
+				9A742B232F36904500A86E1C /* libios_text_to_speech_streamelements.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +152,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9A742B102F36904500A86E1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A742B112F36904500A86E1C /* speaker.h in Headers */,
+				9A742B122F36904500A86E1C /* _.h in Headers */,
+				9A742B132F36904500A86E1C /* framework.h in Headers */,
+				9A742B142F36904500A86E1C /* aaa__library.h in Headers */,
+				9A742B152F36904500A86E1C /* resource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9E72EBB1F0B00D2CCED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +179,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9A742B0D2F36904500A86E1C /* ios_text_to_speech_streamelements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A742B202F36904500A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_streamelements" */;
+			buildPhases = (
+				9A742B102F36904500A86E1C /* Headers */,
+				9A742B162F36904500A86E1C /* Sources */,
+				9A742B1B2F36904500A86E1C /* Frameworks */,
+				9A742B1F2F36904500A86E1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A742B3C2F36910200A86E1C /* PBXTargetDependency */,
+			);
+			name = ios_text_to_speech_streamelements;
+			packageProductDependencies = (
+			);
+			productName = text_to_speech_streamelements;
+			productReference = 9A742B232F36904500A86E1C /* libios_text_to_speech_streamelements.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		9AA2A9EA2EBB1F0B00D2CCED /* text_to_speech_streamelements */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AA2A9EF2EBB1F0B00D2CCED /* Build configuration list for PBXNativeTarget "text_to_speech_streamelements" */;
@@ -202,6 +260,7 @@
 			projectRoot = "";
 			targets = (
 				9AA2A9EA2EBB1F0B00D2CCED /* text_to_speech_streamelements */,
+				9A742B0D2F36904500A86E1C /* ios_text_to_speech_streamelements */,
 			);
 		};
 /* End PBXProject section */
@@ -237,9 +296,40 @@
 			shellPath = /bin/sh;
 			shellScript = ". $HOME/code/operating_system/tool/bin/_on_after_build_dylib\n";
 		};
+		9A742B1F2F36904500A86E1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+				"$(WorkspaceDir)/output_copy.txt",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(WorkspaceDir)/time-$(PLATFORM_MODIFIER)/output/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $HOME/code/operating_system/tool/bin/_on_after_build_dylib\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A742B162F36904500A86E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A742B172F36904500A86E1C /* _.cpp in Sources */,
+				9A742B182F36904500A86E1C /* framework.cpp in Sources */,
+				9A742B192F36904500A86E1C /* speaker.cpp in Sources */,
+				9A742B1A2F36904500A86E1C /* _factory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9E82EBB1F0B00D2CCED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +344,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9A742B3C2F36910200A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_aqua;
+			targetProxy = 9A742B3B2F36910200A86E1C /* PBXContainerItemProxy */;
+		};
 		9AC361292EBB387E00BD8610 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = aqua;
@@ -262,6 +357,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9A742B212F36904500A86E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A742B222F36904500A86E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
 		9AA2A9ED2EBB1F0B00D2CCED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AC360C52EBB355B00BD8610 /* _____debug.xcconfig */;
@@ -469,6 +584,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A742B202F36904500A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_streamelements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A742B212F36904500A86E1C /* Debug */,
+				9A742B222F36904500A86E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AA2A9E62EBB1F0B00D2CCED /* Build configuration list for PBXProject "text_to_speech_streamelements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
