@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A742AE62F36904200A86E1C /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA222EBB22FF00D2CCED /* aaa__library.h */; };
+		9A742AE72F36904200A86E1C /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA262EBB22FF00D2CCED /* speaker.h */; };
+		9A742AE82F36904200A86E1C /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA252EBB22FF00D2CCED /* resource.h */; };
+		9A742AE92F36904200A86E1C /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA1F2EBB22FF00D2CCED /* _.h */; };
+		9A742AEA2F36904200A86E1C /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA232EBB22FF00D2CCED /* framework.h */; };
+		9A742AEC2F36904200A86E1C /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA212EBB22FF00D2CCED /* _factory.cpp */; };
+		9A742AED2F36904200A86E1C /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA202EBB22FF00D2CCED /* _.cpp */; };
+		9A742AEE2F36904200A86E1C /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA272EBB22FF00D2CCED /* speaker.cpp */; };
+		9A742AEF2F36904200A86E1C /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA242EBB22FF00D2CCED /* framework.cpp */; };
 		9AA2AA282EBB22FF00D2CCED /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA212EBB22FF00D2CCED /* _factory.cpp */; };
 		9AA2AA292EBB22FF00D2CCED /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA202EBB22FF00D2CCED /* _.cpp */; };
 		9AA2AA2A2EBB22FF00D2CCED /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA272EBB22FF00D2CCED /* speaker.cpp */; };
@@ -22,6 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9A742B372F3690EC00A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC360D32EBB378400BD8610 /* api_google.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24E891904CFFD001AEFFB;
+			remoteInfo = ios_api_google;
+		};
+		9A742B392F3690F300A86E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC360CD2EBB373800BD8610 /* aqua.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8E9E37282A3210005FF778;
+			remoteInfo = ios_aqua;
+		};
 		9AC361182EBB386100BD8610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9AC360D32EBB378400BD8610 /* api_google.xcodeproj */;
@@ -46,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A742AF82F36904200A86E1C /* libios_text_to_speech_google.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_google.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA2A9DB2EBB1EDB00D2CCED /* libtext_to_speech_google.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_google.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA2AA1F2EBB22FF00D2CCED /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
 		9AA2AA202EBB22FF00D2CCED /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
@@ -66,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A742AF02F36904200A86E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9D92EBB1EDB00D2CCED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA2A9DB2EBB1EDB00D2CCED /* libtext_to_speech_google.dylib */,
+				9A742AF82F36904200A86E1C /* libios_text_to_speech_google.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +175,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9A742AE52F36904200A86E1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A742AE62F36904200A86E1C /* aaa__library.h in Headers */,
+				9A742AE72F36904200A86E1C /* speaker.h in Headers */,
+				9A742AE82F36904200A86E1C /* resource.h in Headers */,
+				9A742AE92F36904200A86E1C /* _.h in Headers */,
+				9A742AEA2F36904200A86E1C /* framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9D72EBB1EDB00D2CCED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,6 +202,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9A742AE02F36904200A86E1C /* ios_text_to_speech_google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A742AF52F36904200A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_google" */;
+			buildPhases = (
+				9A742AE52F36904200A86E1C /* Headers */,
+				9A742AEB2F36904200A86E1C /* Sources */,
+				9A742AF02F36904200A86E1C /* Frameworks */,
+				9A742AF42F36904200A86E1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A742B3A2F3690F300A86E1C /* PBXTargetDependency */,
+				9A742B382F3690EC00A86E1C /* PBXTargetDependency */,
+			);
+			name = ios_text_to_speech_google;
+			packageProductDependencies = (
+			);
+			productName = text_to_speech_google;
+			productReference = 9A742AF82F36904200A86E1C /* libios_text_to_speech_google.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		9AA2A9DA2EBB1EDB00D2CCED /* text_to_speech_google */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AA2A9DF2EBB1EDB00D2CCED /* Build configuration list for PBXNativeTarget "text_to_speech_google" */;
@@ -165,6 +231,7 @@
 				9AA2A9D72EBB1EDB00D2CCED /* Headers */,
 				9AA2A9D82EBB1EDB00D2CCED /* Sources */,
 				9AA2A9D92EBB1EDB00D2CCED /* Frameworks */,
+				9A7129DB2F352ECB00B0F974 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -222,6 +289,7 @@
 			projectRoot = "";
 			targets = (
 				9AA2A9DA2EBB1EDB00D2CCED /* text_to_speech_google */,
+				9A742AE02F36904200A86E1C /* ios_text_to_speech_google */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +304,61 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A7129DB2F352ECB00B0F974 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+				"$(WorkspaceDir)/output_copy.txt",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(WorkspaceDir)/time-$(PLATFORM_MODIFIER)/output/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $HOME/code/operating_system/tool/bin/_on_after_build_dylib\n";
+		};
+		9A742AF42F36904200A86E1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+				"$(WorkspaceDir)/output_copy.txt",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(WorkspaceDir)/time-$(PLATFORM_MODIFIER)/output/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". $HOME/code/operating_system/tool/bin/_on_after_build_dylib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9A742AEB2F36904200A86E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A742AEC2F36904200A86E1C /* _factory.cpp in Sources */,
+				9A742AED2F36904200A86E1C /* _.cpp in Sources */,
+				9A742AEE2F36904200A86E1C /* speaker.cpp in Sources */,
+				9A742AEF2F36904200A86E1C /* framework.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AA2A9D82EBB1EDB00D2CCED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +373,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9A742B382F3690EC00A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_api_google;
+			targetProxy = 9A742B372F3690EC00A86E1C /* PBXContainerItemProxy */;
+		};
+		9A742B3A2F3690F300A86E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ios_aqua;
+			targetProxy = 9A742B392F3690F300A86E1C /* PBXContainerItemProxy */;
+		};
 		9AC361192EBB386100BD8610 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = api_google;
@@ -264,6 +396,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9A742AF62F36904200A86E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A742AF72F36904200A86E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				MACH_O_TYPE = staticlib;
+				PLATFORM_MODIFIER = ios;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
 		9AA2A9DD2EBB1EDB00D2CCED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AC360C72EBB359C00BD8610 /* _____debug.xcconfig */;
@@ -471,6 +623,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A742AF52F36904200A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A742AF62F36904200A86E1C /* Debug */,
+				9A742AF72F36904200A86E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AA2A9D62EBB1EDB00D2CCED /* Build configuration list for PBXProject "text_to_speech_google" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
