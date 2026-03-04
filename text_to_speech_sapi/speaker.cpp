@@ -130,7 +130,7 @@ namespace text_to_speech_sapi
 
       auto pfactory = system()->factory("nano_speech"_ansi, "sapi"_ansi);
 
-      øconstruct(m_psapispeech, pfactory);
+      constructø(m_psapispeech, pfactory);
 
       return m_psapispeech;
 
