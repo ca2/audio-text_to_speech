@@ -200,7 +200,7 @@ namespace text_to_speech_speech_synthesis
 
          ::winrt::Windows::Storage::Streams::Buffer buffer(nCount);
 
-         auto buffer2 = inputstream.ReadAsync(buffer, (unsigned int)nCount, ::winrt::Windows::Storage::Streams::InputStreamOptions::None).get();
+         auto buffer2 = inputstream.ReadAsync(buffer, (::u32)nCount, ::winrt::Windows::Storage::Streams::InputStreamOptions::None).get();
 
          auto read = buffer2.Length();
 

@@ -40,13 +40,13 @@ HRESULT out_file(::memory_file * f, WAVEFORMATEX & fmt, IStream * pStream)
 {
 
    // Write the file headers
-   f->write("RIFF----WAVEfmt "_ansi, 16);     // (chunk int_size to be filled in later)
-   unsigned int dw = fmt.cbSize;
+   f->write("RIFF----WAVEfmt "_ansi, 16);     // (chunk i32_size to be filled in later)
+   ::u32 dw = fmt.cbSize;
    f->write(&dw, sizeof(dw));
    f->write(&fmt, fmt.cbSize);
    // Write the data chunk header
    size_t data_chunk_pos = (size_t)f->get_position();
-   f->write("data----"_ansi, 8);  // (chunk int_size to be filled in later)
+   f->write("data----"_ansi, 8);  // (chunk i32_size to be filled in later)
 
 
 
@@ -74,16 +74,16 @@ HRESULT out_file(::memory_file * f, WAVEFORMATEX & fmt, IStream * pStream)
 
    size_t file_length = (size_t)f->size();
 
-   // Fix the data chunk header to contain the data int_size
+   // Fix the data chunk header to contain the data i32_size
    f->set_position(data_chunk_pos + 4);
-   dw = (unsigned int)(file_length - data_chunk_pos + 8);
-   f->write(&dw, sizeof(unsigned int));
+   dw = (::u32)(file_length - data_chunk_pos + 8);
+   f->write(&dw, sizeof(::u32));
 
 
    // Fix the file header to contain the proper RIFF chunk size, which is (file size - 8) bytes
    f->set_position(0 + 4);
-   dw = (unsigned int)(file_length - 8);
-   f->write(&dw, sizeof(unsigned int));
+   dw = (::u32)(file_length - 8);
+   f->write(&dw, sizeof(::u32));
    return S_OK;
 }
 
@@ -404,7 +404,7 @@ namespace text_to_speech_sapi
 
       string strT(strText);
 
-      unsigned int uFlag = 0;
+      ::u32 uFlag = 0;
 
       strT.trim();
 
@@ -622,7 +622,7 @@ namespace text_to_speech_sapi
 
       string strT(strText);
 
-      unsigned int uFlag = 0;
+      ::u32 uFlag = 0;
 
       strT.trim();
 

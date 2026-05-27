@@ -22,7 +22,7 @@ namespace text_to_speech_sapi
 
 
       string                                       m_strDefaultLang;
-      string_map_base < unsigned int >                         m_time;
+      string_map_base < ::u32 >                         m_time;
       string_map_base < bool >                          m_tts;
       ::pointer < ::sapi::nano::speech::speech >   m_psapispeech;
       
