@@ -1,2 +1,2 @@
 audio/audio
-app-core/api_azure
+app-interface/api_azure
