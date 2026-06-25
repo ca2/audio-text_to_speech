@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A742AB32F36903E00A86E1C /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA142EBB22A400D2CCED /* speaker.h */; };
-		9A742AB42F36903E00A86E1C /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA112EBB22A400D2CCED /* framework.h */; };
-		9A742AB52F36903E00A86E1C /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA0D2EBB22A400D2CCED /* _.h */; };
-		9A742AB62F36903E00A86E1C /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA132EBB22A400D2CCED /* resource.h */; };
-		9A742AB72F36903E00A86E1C /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA102EBB22A400D2CCED /* aaa__library.h */; };
-		9A742AB92F36903E00A86E1C /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA122EBB22A400D2CCED /* framework.cpp */; };
-		9A742ABA2F36903E00A86E1C /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA0E2EBB22A400D2CCED /* _.cpp */; };
-		9A742ABB2F36903E00A86E1C /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA152EBB22A400D2CCED /* speaker.cpp */; };
-		9A742ABC2F36903E00A86E1C /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA0F2EBB22A400D2CCED /* _factory.cpp */; };
-		9AA2AA162EBB22A400D2CCED /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA142EBB22A400D2CCED /* speaker.h */; };
-		9AA2AA172EBB22A400D2CCED /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA112EBB22A400D2CCED /* framework.h */; };
-		9AA2AA182EBB22A400D2CCED /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA0D2EBB22A400D2CCED /* _.h */; };
-		9AA2AA192EBB22A400D2CCED /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA132EBB22A400D2CCED /* resource.h */; };
-		9AA2AA1A2EBB22A400D2CCED /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2AA102EBB22A400D2CCED /* aaa__library.h */; };
-		9AA2AA1B2EBB22A400D2CCED /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA122EBB22A400D2CCED /* framework.cpp */; };
-		9AA2AA1C2EBB22A400D2CCED /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA0E2EBB22A400D2CCED /* _.cpp */; };
-		9AA2AA1D2EBB22A400D2CCED /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA152EBB22A400D2CCED /* speaker.cpp */; };
-		9AA2AA1E2EBB22A400D2CCED /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2AA0F2EBB22A400D2CCED /* _factory.cpp */; };
-		9AC361412EBB39F600BD8610 /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC361402EBB39F600BD8610 /* libacme.dylib */; };
-		9AC361432EBB39F600BD8610 /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC361422EBB39F600BD8610 /* libapex.dylib */; };
-		9AC361442EBB39F600BD8610 /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC361102EBB383F00BD8610 /* libaqua.dylib */; };
+		77B102719F8D8548965C4B2E /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 63409C0AD0D018896ACACF63 /* speaker.h */; };
+		72DD67FD29094EEA8DAD2285 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* framework.h */; };
+		50991DA34C421F913E2B3AA1 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 08745C8A526781C262BBFBE1 /* _.h */; };
+		2DF03E0650FCEE617EFFC251 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 15487E2F6A1F3ADDCE4BA356 /* resource.h */; };
+		B5F4F0054DCAA0A9017BBFAC /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 430D25F1219F18B2734CF62B /* aaa__library.h */; };
+		7477C3595FC73D917FCF6DAF /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* framework.cpp */; };
+		ABE1E902494F0799AC5D9D38 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BD66B1070253DB21D7CD5 /* _.cpp */; };
+		6DA184578C0E13A633EE3C73 /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F074532C7FA9B2F3E6A327C /* speaker.cpp */; };
+		46CE6DC8A50148F35E86073D /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CA8F930C36768E886E1822 /* _factory.cpp */; };
+		7C128D1D9606FE6DF37AE724 /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 63409C0AD0D018896ACACF63 /* speaker.h */; };
+		35826621A2CBAB1F2B118338 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* framework.h */; };
+		240E7AD64A1EA9C9AA4AF9E9 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 08745C8A526781C262BBFBE1 /* _.h */; };
+		C915FA8F975047B158DF97B9 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 15487E2F6A1F3ADDCE4BA356 /* resource.h */; };
+		54725CFEACBB49158F790CB9 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 430D25F1219F18B2734CF62B /* aaa__library.h */; };
+		975DE7B2C667791815D7195C /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* framework.cpp */; };
+		AB32013BFFB668B603053B56 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BD66B1070253DB21D7CD5 /* _.cpp */; };
+		E0262A2F33E33AA3CB45BACE /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F074532C7FA9B2F3E6A327C /* speaker.cpp */; };
+		228B15F80E08A2F08E271F6E /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CA8F930C36768E886E1822 /* _factory.cpp */; };
+		DB6E425907A2DC2ECFD88CE6 /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFE4EEC3160AA46AF579169 /* libacme.dylib */; };
+		0E962D991814626667E2EB7D /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D90D79BC9344144B35CC161 /* libapex.dylib */; };
+		0FF66781999C6F39565D7BEF /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D36068450AC7D9532BCC51F /* libaqua.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A742B332F3690D100A86E1C /* PBXContainerItemProxy */ = {
+		B73BEC2BEE1EFEF93FA00E82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AC360E02EBB37BA00BD8610 /* api_azure.xcodeproj */;
+			containerPortal = FA38B86200206B35417F1C2C /* api_azure.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 9AE24E891904CFFD001AEFFB;
+			remoteGlobalIDString = 5F08924D69B9815BE40A4CFD;
 			remoteInfo = ios_api_azure;
 		};
-		9A742B352F3690DB00A86E1C /* PBXContainerItemProxy */ = {
+		49026F71827034B91FB0BD74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */;
+			containerPortal = C6B46A5460C9003340E6828C /* aqua.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A8E9E37282A3210005FF778;
 			remoteInfo = ios_aqua;
 		};
-		9AC361022EBB383F00BD8610 /* PBXContainerItemProxy */ = {
+		D164B2C9C8DA91D089EDBAC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AC360FC2EBB383F00BD8610 /* api_azure.xcodeproj */;
+			containerPortal = A0C3EE5107DECE72B2A02C40 /* api_azure.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9AEB75A216F78DF10085103B;
 			remoteInfo = api_azure;
 		};
-		9AC361042EBB383F00BD8610 /* PBXContainerItemProxy */ = {
+		23F33AD4E21E7DB0DDC123A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */;
+			containerPortal = C6B46A5460C9003340E6828C /* aqua.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A2818FD25242488009FA9CB;
 			remoteInfo = aqua;
 		};
-		9AC3610F2EBB383F00BD8610 /* PBXContainerItemProxy */ = {
+		1854944FAEA6E4C0EE7BB621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */;
+			containerPortal = C6B46A5460C9003340E6828C /* aqua.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A2818FE25242488009FA9CB;
 			remoteInfo = aqua;
@@ -69,114 +69,114 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A742AC52F36903E00A86E1C /* libios_text_to_speech_azure.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_azure.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA2A9CB2EBB1E3400D2CCED /* libtext_to_speech_azure.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_azure.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA2AA0D2EBB22A400D2CCED /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
-		9AA2AA0E2EBB22A400D2CCED /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
-		9AA2AA0F2EBB22A400D2CCED /* _factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
-		9AA2AA102EBB22A400D2CCED /* aaa__library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa__library.h; sourceTree = "<group>"; };
-		9AA2AA112EBB22A400D2CCED /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
-		9AA2AA122EBB22A400D2CCED /* framework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
-		9AA2AA132EBB22A400D2CCED /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
-		9AA2AA142EBB22A400D2CCED /* speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speaker.h; sourceTree = "<group>"; };
-		9AA2AA152EBB22A400D2CCED /* speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = speaker.cpp; sourceTree = "<group>"; };
-		9AC360BF2EBB34EC00BD8610 /* _____debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
-		9AC360C02EBB34EC00BD8610 /* _____release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
-		9AC360E02EBB37BA00BD8610 /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "../../app-interface/api_azure/api_azure.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		9AC360EC2EBB37D300BD8610 /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = ../../app/aqua/aqua.xcodeproj; sourceTree = SOURCE_ROOT; };
-		9AC360FC2EBB383F00BD8610 /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "/Users/camilo/code/main/source/app-interface/api_azure/api_azure.xcodeproj"; sourceTree = "<absolute>"; };
-		9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = /Users/camilo/code/main/source/app/aqua/aqua.xcodeproj; sourceTree = "<absolute>"; };
-		9AC361402EBB39F600BD8610 /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC361422EBB39F600BD8610 /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FAFFB8989F2B2C7AD93533 /* libios_text_to_speech_azure.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_azure.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3A31FE58DD3BAE19A2AC24 /* libtext_to_speech_azure.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_azure.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		08745C8A526781C262BBFBE1 /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
+		2B1BD66B1070253DB21D7CD5 /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
+		E7CA8F930C36768E886E1822 /* _factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
+		430D25F1219F18B2734CF62B /* aaa__library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa__library.h; sourceTree = "<group>"; };
+		16B0ED80A21D9144C998712F /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		B5928E49B9C5A6D9B4CF5820 /* framework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		15487E2F6A1F3ADDCE4BA356 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		63409C0AD0D018896ACACF63 /* speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speaker.h; sourceTree = "<group>"; };
+		6F074532C7FA9B2F3E6A327C /* speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = speaker.cpp; sourceTree = "<group>"; };
+		8F4B5769B8C380651723A358 /* _____debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
+		58768FD7BA72EC6D6EF4F688 /* _____release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
+		FA38B86200206B35417F1C2C /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "../../app-interface/api_azure/api_azure.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		B467D956A200F1E6A572B4DF /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = ../../app/aqua/aqua.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A0C3EE5107DECE72B2A02C40 /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "/Users/camilo/code/main/source/app-interface/api_azure/api_azure.xcodeproj"; sourceTree = "<absolute>"; };
+		C6B46A5460C9003340E6828C /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = /Users/camilo/code/main/source/app/aqua/aqua.xcodeproj; sourceTree = "<absolute>"; };
+		3DFE4EEC3160AA46AF579169 /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D90D79BC9344144B35CC161 /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A742ABD2F36903E00A86E1C /* Frameworks */ = {
+		78CECDBA0C13116A0E2EF409 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA2A9C92EBB1E3400D2CCED /* Frameworks */ = {
+		464EC604AE9897B25BDEBD5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC361412EBB39F600BD8610 /* libacme.dylib in Frameworks */,
-				9AC361432EBB39F600BD8610 /* libapex.dylib in Frameworks */,
-				9AC361442EBB39F600BD8610 /* libaqua.dylib in Frameworks */,
+				DB6E425907A2DC2ECFD88CE6 /* libacme.dylib in Frameworks */,
+				0E962D991814626667E2EB7D /* libapex.dylib in Frameworks */,
+				0FF66781999C6F39565D7BEF /* libaqua.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A31D19D2EBB570F000AF09F /* Products */ = {
+		1D38CF91ECE670AAB937AEFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A31D3CB2EBB5712000AF09F /* Products */ = {
+		47EBEDC61643798019D2DD2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AA2A9C22EBB1E3400D2CCED = {
+		91885A95C000A0DB33FB30E7 = {
 			isa = PBXGroup;
 			children = (
-				9AC360E02EBB37BA00BD8610 /* api_azure.xcodeproj */,
-				9AC360EC2EBB37D300BD8610 /* aqua.xcodeproj */,
-				9AC360BF2EBB34EC00BD8610 /* _____debug.xcconfig */,
-				9AC360C02EBB34EC00BD8610 /* _____release.xcconfig */,
-				9AA2AA0D2EBB22A400D2CCED /* _.h */,
-				9AA2AA0E2EBB22A400D2CCED /* _.cpp */,
-				9AA2AA0F2EBB22A400D2CCED /* _factory.cpp */,
-				9AA2AA102EBB22A400D2CCED /* aaa__library.h */,
-				9AA2AA112EBB22A400D2CCED /* framework.h */,
-				9AA2AA122EBB22A400D2CCED /* framework.cpp */,
-				9AA2AA132EBB22A400D2CCED /* resource.h */,
-				9AA2AA142EBB22A400D2CCED /* speaker.h */,
-				9AA2AA152EBB22A400D2CCED /* speaker.cpp */,
-				9AA2A9CC2EBB1E3400D2CCED /* Products */,
-				9AC360FC2EBB383F00BD8610 /* api_azure.xcodeproj */,
-				9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */,
-				9AC3613F2EBB39F600BD8610 /* Frameworks */,
+				FA38B86200206B35417F1C2C /* api_azure.xcodeproj */,
+				B467D956A200F1E6A572B4DF /* aqua.xcodeproj */,
+				8F4B5769B8C380651723A358 /* _____debug.xcconfig */,
+				58768FD7BA72EC6D6EF4F688 /* _____release.xcconfig */,
+				08745C8A526781C262BBFBE1 /* _.h */,
+				2B1BD66B1070253DB21D7CD5 /* _.cpp */,
+				E7CA8F930C36768E886E1822 /* _factory.cpp */,
+				430D25F1219F18B2734CF62B /* aaa__library.h */,
+				16B0ED80A21D9144C998712F /* framework.h */,
+				B5928E49B9C5A6D9B4CF5820 /* framework.cpp */,
+				15487E2F6A1F3ADDCE4BA356 /* resource.h */,
+				63409C0AD0D018896ACACF63 /* speaker.h */,
+				6F074532C7FA9B2F3E6A327C /* speaker.cpp */,
+				11F25BEE8DA2EF8A93DB2812 /* Products */,
+				A0C3EE5107DECE72B2A02C40 /* api_azure.xcodeproj */,
+				C6B46A5460C9003340E6828C /* aqua.xcodeproj */,
+				511BB4DAA53DF4F613E3A69D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9AA2A9CC2EBB1E3400D2CCED /* Products */ = {
+		11F25BEE8DA2EF8A93DB2812 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AA2A9CB2EBB1E3400D2CCED /* libtext_to_speech_azure.dylib */,
-				9A742AC52F36903E00A86E1C /* libios_text_to_speech_azure.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9AC360FD2EBB383F00BD8610 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				DA3A31FE58DD3BAE19A2AC24 /* libtext_to_speech_azure.dylib */,
+				08FAFFB8989F2B2C7AD93533 /* libios_text_to_speech_azure.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AC361002EBB383F00BD8610 /* Products */ = {
+		479C2AAED925C60F0CC4D851 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AC361102EBB383F00BD8610 /* libaqua.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AC3613F2EBB39F600BD8610 /* Frameworks */ = {
+		77A0A445CA8CCBB844D263F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AC361402EBB39F600BD8610 /* libacme.dylib */,
-				9AC361422EBB39F600BD8610 /* libapex.dylib */,
+				0D36068450AC7D9532BCC51F /* libaqua.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511BB4DAA53DF4F613E3A69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE4EEC3160AA46AF579169 /* libacme.dylib */,
+				1D90D79BC9344144B35CC161 /* libapex.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,141 +184,141 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A742AB22F36903E00A86E1C /* Headers */ = {
+		90A7E21047973A63047378A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A742AB32F36903E00A86E1C /* speaker.h in Headers */,
-				9A742AB42F36903E00A86E1C /* framework.h in Headers */,
-				9A742AB52F36903E00A86E1C /* _.h in Headers */,
-				9A742AB62F36903E00A86E1C /* resource.h in Headers */,
-				9A742AB72F36903E00A86E1C /* aaa__library.h in Headers */,
+				77B102719F8D8548965C4B2E /* speaker.h in Headers */,
+				72DD67FD29094EEA8DAD2285 /* framework.h in Headers */,
+				50991DA34C421F913E2B3AA1 /* _.h in Headers */,
+				2DF03E0650FCEE617EFFC251 /* resource.h in Headers */,
+				B5F4F0054DCAA0A9017BBFAC /* aaa__library.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA2A9C72EBB1E3400D2CCED /* Headers */ = {
+		5B60A488D98C34893AF8A43F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA2AA162EBB22A400D2CCED /* speaker.h in Headers */,
-				9AA2AA172EBB22A400D2CCED /* framework.h in Headers */,
-				9AA2AA182EBB22A400D2CCED /* _.h in Headers */,
-				9AA2AA192EBB22A400D2CCED /* resource.h in Headers */,
-				9AA2AA1A2EBB22A400D2CCED /* aaa__library.h in Headers */,
+				7C128D1D9606FE6DF37AE724 /* speaker.h in Headers */,
+				35826621A2CBAB1F2B118338 /* framework.h in Headers */,
+				240E7AD64A1EA9C9AA4AF9E9 /* _.h in Headers */,
+				C915FA8F975047B158DF97B9 /* resource.h in Headers */,
+				54725CFEACBB49158F790CB9 /* aaa__library.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A742AAD2F36903E00A86E1C /* ios_text_to_speech_azure */ = {
+		F4195822555FAEA71099A1A0 /* ios_text_to_speech_azure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A742AC22F36903E00A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */;
+			buildConfigurationList = 09380F69ABF824C9B35B0985 /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */;
 			buildPhases = (
-				9A742AB22F36903E00A86E1C /* Headers */,
-				9A742AB82F36903E00A86E1C /* Sources */,
-				9A742ABD2F36903E00A86E1C /* Frameworks */,
-				9A742AC12F36903E00A86E1C /* ShellScript */,
+				90A7E21047973A63047378A4 /* Headers */,
+				9DF139B256C91A429DC80B77 /* Sources */,
+				78CECDBA0C13116A0E2EF409 /* Frameworks */,
+				44AFCD0B71D72F4D44996AF9 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A742B362F3690DB00A86E1C /* PBXTargetDependency */,
-				9A742B342F3690D100A86E1C /* PBXTargetDependency */,
+				9557BAACB1FC437A07714E5A /* PBXTargetDependency */,
+				D5109338C7DA8D93452FABBE /* PBXTargetDependency */,
 			);
 			name = ios_text_to_speech_azure;
 			packageProductDependencies = (
 			);
 			productName = text_to_speech_azure;
-			productReference = 9A742AC52F36903E00A86E1C /* libios_text_to_speech_azure.a */;
+			productReference = 08FAFFB8989F2B2C7AD93533 /* libios_text_to_speech_azure.a */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
-		9AA2A9CA2EBB1E3400D2CCED /* text_to_speech_azure */ = {
+		8928DBDDFF8DA83E8D8B2363 /* text_to_speech_azure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AA2A9CF2EBB1E3400D2CCED /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */;
+			buildConfigurationList = 943D79354B4C26FB3C41AEF9 /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */;
 			buildPhases = (
-				9AA2A9C72EBB1E3400D2CCED /* Headers */,
-				9AA2A9C82EBB1E3400D2CCED /* Sources */,
-				9AA2A9C92EBB1E3400D2CCED /* Frameworks */,
-				9A7129C02F352E9300B0F974 /* ShellScript */,
+				5B60A488D98C34893AF8A43F /* Headers */,
+				0FB7D59D5A190DE11AAD0362 /* Sources */,
+				464EC604AE9897B25BDEBD5A /* Frameworks */,
+				90B9880F67A917C7274587A5 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AC361032EBB383F00BD8610 /* PBXTargetDependency */,
-				9AC361052EBB383F00BD8610 /* PBXTargetDependency */,
+				418C3FD7BF55360CA642364D /* PBXTargetDependency */,
+				3854C03825C21DE063ACF23F /* PBXTargetDependency */,
 			);
 			name = text_to_speech_azure;
 			packageProductDependencies = (
 			);
 			productName = text_to_speech_azure;
-			productReference = 9AA2A9CB2EBB1E3400D2CCED /* libtext_to_speech_azure.dylib */;
+			productReference = DA3A31FE58DD3BAE19A2AC24 /* libtext_to_speech_azure.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9AA2A9C32EBB1E3400D2CCED /* Project object */ = {
+		8D81B069FAB7E5F5F2EAF193 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					9AA2A9CA2EBB1E3400D2CCED = {
+					8928DBDDFF8DA83E8D8B2363 = {
 						CreatedOnToolsVersion = 26.1;
 					};
 				};
 			};
-			buildConfigurationList = 9AA2A9C62EBB1E3400D2CCED /* Build configuration list for PBXProject "text_to_speech_azure" */;
+			buildConfigurationList = 1865954D8D2D37EF2DD4C47C /* Build configuration list for PBXProject "text_to_speech_azure" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9AA2A9C22EBB1E3400D2CCED;
+			mainGroup = 91885A95C000A0DB33FB30E7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9AA2A9CC2EBB1E3400D2CCED /* Products */;
+			productRefGroup = 11F25BEE8DA2EF8A93DB2812 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9A31D3CB2EBB5712000AF09F /* Products */;
-					ProjectRef = 9AC360E02EBB37BA00BD8610 /* api_azure.xcodeproj */;
+					ProductGroup = 47EBEDC61643798019D2DD2A /* Products */;
+					ProjectRef = FA38B86200206B35417F1C2C /* api_azure.xcodeproj */;
 				},
 				{
-					ProductGroup = 9AC360FD2EBB383F00BD8610 /* Products */;
-					ProjectRef = 9AC360FC2EBB383F00BD8610 /* api_azure.xcodeproj */;
+					ProductGroup = 479C2AAED925C60F0CC4D851 /* Products */;
+					ProjectRef = A0C3EE5107DECE72B2A02C40 /* api_azure.xcodeproj */;
 				},
 				{
-					ProductGroup = 9AC361002EBB383F00BD8610 /* Products */;
-					ProjectRef = 9AC360FF2EBB383F00BD8610 /* aqua.xcodeproj */;
+					ProductGroup = 77A0A445CA8CCBB844D263F0 /* Products */;
+					ProjectRef = C6B46A5460C9003340E6828C /* aqua.xcodeproj */;
 				},
 				{
-					ProductGroup = 9A31D19D2EBB570F000AF09F /* Products */;
-					ProjectRef = 9AC360EC2EBB37D300BD8610 /* aqua.xcodeproj */;
+					ProductGroup = 1D38CF91ECE670AAB937AEFF /* Products */;
+					ProjectRef = B467D956A200F1E6A572B4DF /* aqua.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				9AA2A9CA2EBB1E3400D2CCED /* text_to_speech_azure */,
-				9A742AAD2F36903E00A86E1C /* ios_text_to_speech_azure */,
+				8928DBDDFF8DA83E8D8B2363 /* text_to_speech_azure */,
+				F4195822555FAEA71099A1A0 /* ios_text_to_speech_azure */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9AC361102EBB383F00BD8610 /* libaqua.dylib */ = {
+		0D36068450AC7D9532BCC51F /* libaqua.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = libaqua.dylib;
-			remoteRef = 9AC3610F2EBB383F00BD8610 /* PBXContainerItemProxy */;
+			remoteRef = 1854944FAEA6E4C0EE7BB621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9A7129C02F352E9300B0F974 /* ShellScript */ = {
+		90B9880F67A917C7274587A5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +338,7 @@
 			shellPath = /bin/sh;
 			shellScript = ". $HOME/code/operating_system/tool/bin/_on_after_build_dylib\n";
 		};
-		9A742AC12F36903E00A86E1C /* ShellScript */ = {
+		44AFCD0B71D72F4D44996AF9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,55 +361,55 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A742AB82F36903E00A86E1C /* Sources */ = {
+		9DF139B256C91A429DC80B77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A742AB92F36903E00A86E1C /* framework.cpp in Sources */,
-				9A742ABA2F36903E00A86E1C /* _.cpp in Sources */,
-				9A742ABB2F36903E00A86E1C /* speaker.cpp in Sources */,
-				9A742ABC2F36903E00A86E1C /* _factory.cpp in Sources */,
+				7477C3595FC73D917FCF6DAF /* framework.cpp in Sources */,
+				ABE1E902494F0799AC5D9D38 /* _.cpp in Sources */,
+				6DA184578C0E13A633EE3C73 /* speaker.cpp in Sources */,
+				46CE6DC8A50148F35E86073D /* _factory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA2A9C82EBB1E3400D2CCED /* Sources */ = {
+		0FB7D59D5A190DE11AAD0362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA2AA1B2EBB22A400D2CCED /* framework.cpp in Sources */,
-				9AA2AA1C2EBB22A400D2CCED /* _.cpp in Sources */,
-				9AA2AA1D2EBB22A400D2CCED /* speaker.cpp in Sources */,
-				9AA2AA1E2EBB22A400D2CCED /* _factory.cpp in Sources */,
+				975DE7B2C667791815D7195C /* framework.cpp in Sources */,
+				AB32013BFFB668B603053B56 /* _.cpp in Sources */,
+				E0262A2F33E33AA3CB45BACE /* speaker.cpp in Sources */,
+				228B15F80E08A2F08E271F6E /* _factory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A742B342F3690D100A86E1C /* PBXTargetDependency */ = {
+		D5109338C7DA8D93452FABBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ios_api_azure;
-			targetProxy = 9A742B332F3690D100A86E1C /* PBXContainerItemProxy */;
+			targetProxy = B73BEC2BEE1EFEF93FA00E82 /* PBXContainerItemProxy */;
 		};
-		9A742B362F3690DB00A86E1C /* PBXTargetDependency */ = {
+		9557BAACB1FC437A07714E5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ios_aqua;
-			targetProxy = 9A742B352F3690DB00A86E1C /* PBXContainerItemProxy */;
+			targetProxy = 49026F71827034B91FB0BD74 /* PBXContainerItemProxy */;
 		};
-		9AC361032EBB383F00BD8610 /* PBXTargetDependency */ = {
+		418C3FD7BF55360CA642364D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = api_azure;
-			targetProxy = 9AC361022EBB383F00BD8610 /* PBXContainerItemProxy */;
+			targetProxy = D164B2C9C8DA91D089EDBAC9 /* PBXContainerItemProxy */;
 		};
-		9AC361052EBB383F00BD8610 /* PBXTargetDependency */ = {
+		3854C03825C21DE063ACF23F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = aqua;
-			targetProxy = 9AC361042EBB383F00BD8610 /* PBXContainerItemProxy */;
+			targetProxy = 23F33AD4E21E7DB0DDC123A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9A742AC32F36903E00A86E1C /* Debug */ = {
+		239633F1C8C383853513F916 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_EXTENSION = a;
@@ -419,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		9A742AC42F36903E00A86E1C /* Release */ = {
+		9172DD39519C906E55512B50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_EXTENSION = a;
@@ -429,9 +429,9 @@
 			};
 			name = Release;
 		};
-		9AA2A9CD2EBB1E3400D2CCED /* Debug */ = {
+		7EB30369C519D26C0EF0B4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC360BF2EBB34EC00BD8610 /* _____debug.xcconfig */;
+			baseConfigurationReference = 8F4B5769B8C380651723A358 /* _____debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -526,9 +526,9 @@
 			};
 			name = Debug;
 		};
-		9AA2A9CE2EBB1E3400D2CCED /* Release */ = {
+		7122397CA5A6A443A90B8B4D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC360C02EBB34EC00BD8610 /* _____release.xcconfig */;
+			baseConfigurationReference = 58768FD7BA72EC6D6EF4F688 /* _____release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -617,7 +617,7 @@
 			};
 			name = Release;
 		};
-		9AA2A9D02EBB1E3400D2CCED /* Debug */ = {
+		741521523674D405295DDB8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -628,7 +628,7 @@
 			};
 			name = Debug;
 		};
-		9AA2A9D12EBB1E3400D2CCED /* Release */ = {
+		41320D20E5CE7CDFC550390C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -642,34 +642,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A742AC22F36903E00A86E1C /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */ = {
+		09380F69ABF824C9B35B0985 /* Build configuration list for PBXNativeTarget "ios_text_to_speech_azure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A742AC32F36903E00A86E1C /* Debug */,
-				9A742AC42F36903E00A86E1C /* Release */,
+				239633F1C8C383853513F916 /* Debug */,
+				9172DD39519C906E55512B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AA2A9C62EBB1E3400D2CCED /* Build configuration list for PBXProject "text_to_speech_azure" */ = {
+		1865954D8D2D37EF2DD4C47C /* Build configuration list for PBXProject "text_to_speech_azure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AA2A9CD2EBB1E3400D2CCED /* Debug */,
-				9AA2A9CE2EBB1E3400D2CCED /* Release */,
+				7EB30369C519D26C0EF0B4B0 /* Debug */,
+				7122397CA5A6A443A90B8B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AA2A9CF2EBB1E3400D2CCED /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */ = {
+		943D79354B4C26FB3C41AEF9 /* Build configuration list for PBXNativeTarget "text_to_speech_azure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AA2A9D02EBB1E3400D2CCED /* Debug */,
-				9AA2A9D12EBB1E3400D2CCED /* Release */,
+				741521523674D405295DDB8E /* Debug */,
+				41320D20E5CE7CDFC550390C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9AA2A9C32EBB1E3400D2CCED /* Project object */;
+	rootObject = 8D81B069FAB7E5F5F2EAF193 /* Project object */;
 }
