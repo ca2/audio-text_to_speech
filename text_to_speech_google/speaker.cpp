@@ -73,6 +73,45 @@ namespace text_to_speech_google
 
       string strText(scopedstrTextParam);
 
+      auto timeTotal = ::time::now();
+
+      if (esynchronicity == e_synchronicity_asynchronous)
+      {
+
+         fork([this, strAttr, strLang, strText]()
+            {
+
+               information() << "tts_google worker begin this=" << (::iptr)this
+                  << " text_length=" << strText.length();
+
+               try
+               {
+
+                  speak(strAttr, strLang, strText, e_synchronicity_synchronous);
+
+               }
+               catch (const ::exception & e)
+               {
+
+                  warning() << "tts_google worker exception this=" << (::iptr)this
+                     << " message=" << e.m_strMessage;
+
+               }
+               catch (...)
+               {
+
+                  warning() << "tts_google worker unknown exception this=" << (::iptr)this;
+
+               }
+
+               information() << "tts_google worker end this=" << (::iptr)this;
+
+            });
+
+         return;
+
+      }
+
       ::payload payloadResponse;
 
       // ::xml::document d;
@@ -173,13 +212,56 @@ namespace text_to_speech_google
 
       pathTxt = pathFolder / "google"_ansi / strLang / strQuality / strGender / strFileRel + ".txt"_ansi;
 
+      if (file()->safe_get_string(pathTxt) != strText || file()->length(pathMp3) < 100)
+      {
+
+         const_char_pointer pszaQuality[] = { "MaxQuality", "MinSize" };
+         const_char_pointer pszaGender[] = { "male", "female" };
+
+         for (auto pszQuality : pszaQuality)
+         {
+
+            for (auto pszGender : pszaGender)
+            {
+
+               auto pathMp3Candidate = pathFolder / "google"_ansi / strLang / pszQuality / pszGender / strFileRel + ".mp3"_ansi;
+               auto pathTxtCandidate = pathFolder / "google"_ansi / strLang / pszQuality / pszGender / strFileRel + ".txt"_ansi;
+
+               if (file()->safe_get_string(pathTxtCandidate) == strText && file()->length(pathMp3Candidate) >= 100)
+               {
+
+                  strQuality = pszQuality;
+                  strGender = pszGender;
+                  pathMp3 = pathMp3Candidate;
+                  pathTxt = pathTxtCandidate;
+                  break;
+
+               }
+
+            }
+
+            if (file()->safe_get_string(pathTxt) == strText && file()->length(pathMp3) >= 100)
+            {
+
+               break;
+
+            }
+
+         }
+
+      }
+
       //::e_status estatus = ::success;
 
       auto pfile = create_memory_file();
 
+      auto timeCache = ::time::now();
+
       // todo... fastly check if file is mp3 file...
       if (file()->safe_get_string(pathTxt) != strText || file()->length(pathMp3) < 100)
       {
+
+         information() << "tts_google timing cache miss after ms=" << timeCache.elapsed().integral_millisecond();
 
 
 
@@ -370,7 +452,11 @@ namespace text_to_speech_google
 
          //estatus = 
          
+         auto timeApi = ::time::now();
+
          payloadResponse = api_get(strUrl, set);
+
+         information() << "tts_google timing api_get ms=" << timeApi.elapsed().integral_millisecond();
 
          string strAudioContent = payloadResponse["audioContent"];
 
@@ -380,6 +466,8 @@ namespace text_to_speech_google
             throw ::exception(error_failed);
 
          }
+
+         auto timeDecode = ::time::now();
 
          system()->base64()->decode(pfile->memory(), strAudioContent);
 
@@ -394,11 +482,17 @@ namespace text_to_speech_google
 
          pfile->seek_to_begin();
 
+         information() << "tts_google timing decode_cache_write ms=" << timeDecode.elapsed().integral_millisecond();
+
       }
       else
       {
 
+         auto timeLoad = ::time::now();
+
          pfile->memory() = file()->as_memory(pathMp3);
+
+         information() << "tts_google timing cache hit load ms=" << timeLoad.elapsed().integral_millisecond();
 
       }
 
@@ -406,7 +500,12 @@ namespace text_to_speech_google
 
       auto paudio = system()->audio();
 
+      auto timePlay = ::time::now();
+
       paudio->play_audio(pfile, esynchronicity);
+
+      information() << "tts_google timing play_audio call ms=" << timePlay.elapsed().integral_millisecond()
+         << " total before/through play call ms=" << timeTotal.elapsed().integral_millisecond();
 
       //return true;
 
