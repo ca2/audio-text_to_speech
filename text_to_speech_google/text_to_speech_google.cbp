@@ -123,10 +123,10 @@
 		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/_factory.cpp">
 			<Option target="text_to_speech_google"/>
 		</Unit>
-		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/framework.cpp">
+		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/platform.cpp">
 			<Option target="text_to_speech_google"/>
 		</Unit>
-		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/framework.h">
+		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/platform.h">
 			<Option target="text_to_speech_google"/>
 		</Unit>
 		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_google/speaker.cpp">

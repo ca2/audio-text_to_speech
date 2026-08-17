@@ -13,10 +13,10 @@
 		9091C58F75E7048503B571DF /* libaura.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD058BD3C9046CD54BBD957 /* libaura.dylib */; };
 		AD3CE290111DEC235531472E /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A66B1A50B7528B8E1F2564 /* aaa__library.h */; };
 		62B4757EC19A891C9C0FC6B5 /* _user_text_to_speech.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E002060E2FFE453EAE50F4 /* _user_text_to_speech.h */; };
-		BF73639064AD1F341C11C09B /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE66BEA07877E66541EC65C /* framework.cpp */; };
+		BF73639064AD1F341C11C09B /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE66BEA07877E66541EC65C /* platform.cpp */; };
 		06F747674CA15193DC5C8D8C /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EDB80294420D1A7FC12F3A /* _.cpp */; };
 		AAB8670CEBCCE06CDFD80B1E /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5834C023BDCA90B5712D0C65 /* resource.h */; };
-		9E3130516F61036A4DA2DDF1 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 77642320110DE2E2B4372989 /* framework.h */; };
+		9E3130516F61036A4DA2DDF1 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 77642320110DE2E2B4372989 /* platform.h */; };
 		A4A94B1A236BF80BB531F199 /* form_handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EE002585E2AAA66E1C5492 /* form_handler.h */; };
 		433186B3D3B3F3E9F0DBA136 /* form_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED5296C535529AF74D3EB916 /* form_handler.cpp */; };
 		F62611467BECBBBD2F9085C3 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A837B09A272047D5A12EB4A0 /* _factory.cpp */; };
@@ -26,11 +26,11 @@
 		61E5DF559959923891B51688 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A66B1A50B7528B8E1F2564 /* aaa__library.h */; };
 		4B52A52AEE359662564E8973 /* form_handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EE002585E2AAA66E1C5492 /* form_handler.h */; };
 		864DE6B056CEB1F309F7CDA7 /* _user_text_to_speech.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E002060E2FFE453EAE50F4 /* _user_text_to_speech.h */; };
-		3B6538DA968AC5E564610772 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 77642320110DE2E2B4372989 /* framework.h */; };
+		3B6538DA968AC5E564610772 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 77642320110DE2E2B4372989 /* platform.h */; };
 		F7AACCA9513CEE36C04EBB60 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A837B09A272047D5A12EB4A0 /* _factory.cpp */; };
 		2A7246AC507A6ADD777B281D /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EDB80294420D1A7FC12F3A /* _.cpp */; };
 		64B692E5067F5C79454CA9E3 /* form_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED5296C535529AF74D3EB916 /* form_handler.cpp */; };
-		7602643360C587E9443ED594 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE66BEA07877E66541EC65C /* framework.cpp */; };
+		7602643360C587E9443ED594 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE66BEA07877E66541EC65C /* platform.cpp */; };
 		7826C54A3CA19D001B9CDDD9 /* libaxis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A6B1D08A042E49534792A9 /* libaxis.dylib */; };
 		C323DBEDE39360B25E43AD3A /* libberg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E069DB3643D53ED97EFD340 /* libberg.dylib */; };
 		6D16330E3B847F9174A1DD11 /* libbred.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C39E6C7D17BF1087CEC0 /* libbred.dylib */; };
@@ -200,10 +200,10 @@
 		4BE593AA08F56018431BA474 /* libuser_text_to_speech.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libuser_text_to_speech.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A66B1A50B7528B8E1F2564 /* aaa__library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaa__library.h; sourceTree = "<group>"; };
 		92E002060E2FFE453EAE50F4 /* _user_text_to_speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _user_text_to_speech.h; sourceTree = "<group>"; };
-		9DE66BEA07877E66541EC65C /* framework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		9DE66BEA07877E66541EC65C /* platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
 		11EDB80294420D1A7FC12F3A /* _.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
 		5834C023BDCA90B5712D0C65 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
-		77642320110DE2E2B4372989 /* framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		77642320110DE2E2B4372989 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		67EE002585E2AAA66E1C5492 /* form_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = form_handler.h; sourceTree = "<group>"; };
 		ED5296C535529AF74D3EB916 /* form_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = form_handler.cpp; sourceTree = "<group>"; };
 		A837B09A272047D5A12EB4A0 /* _factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
@@ -316,12 +316,12 @@
 				C1EC89D3B81DD788BBE7110D /* _____release.xcconfig */,
 				11EDB80294420D1A7FC12F3A /* _.cpp */,
 				A837B09A272047D5A12EB4A0 /* _factory.cpp */,
-				9DE66BEA07877E66541EC65C /* framework.cpp */,
+				9DE66BEA07877E66541EC65C /* platform.cpp */,
 				ED5296C535529AF74D3EB916 /* form_handler.cpp */,
 				F1B7E26BD80B3FAF1D3986B5 /* _.h */,
 				92E002060E2FFE453EAE50F4 /* _user_text_to_speech.h */,
 				32A66B1A50B7528B8E1F2564 /* aaa__library.h */,
-				77642320110DE2E2B4372989 /* framework.h */,
+				77642320110DE2E2B4372989 /* platform.h */,
 				67EE002585E2AAA66E1C5492 /* form_handler.h */,
 				5834C023BDCA90B5712D0C65 /* resource.h */,
 			);
@@ -349,7 +349,7 @@
 				AD3CE290111DEC235531472E /* aaa__library.h in Headers */,
 				A4A94B1A236BF80BB531F199 /* form_handler.h in Headers */,
 				62B4757EC19A891C9C0FC6B5 /* _user_text_to_speech.h in Headers */,
-				9E3130516F61036A4DA2DDF1 /* framework.h in Headers */,
+				9E3130516F61036A4DA2DDF1 /* platform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +362,7 @@
 				61E5DF559959923891B51688 /* aaa__library.h in Headers */,
 				4B52A52AEE359662564E8973 /* form_handler.h in Headers */,
 				864DE6B056CEB1F309F7CDA7 /* _user_text_to_speech.h in Headers */,
-				3B6538DA968AC5E564610772 /* framework.h in Headers */,
+				3B6538DA968AC5E564610772 /* platform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +580,7 @@
 				F62611467BECBBBD2F9085C3 /* _factory.cpp in Sources */,
 				06F747674CA15193DC5C8D8C /* _.cpp in Sources */,
 				433186B3D3B3F3E9F0DBA136 /* form_handler.cpp in Sources */,
-				BF73639064AD1F341C11C09B /* framework.cpp in Sources */,
+				BF73639064AD1F341C11C09B /* platform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 				F7AACCA9513CEE36C04EBB60 /* _factory.cpp in Sources */,
 				2A7246AC507A6ADD777B281D /* _.cpp in Sources */,
 				64B692E5067F5C79454CA9E3 /* form_handler.cpp in Sources */,
-				7602643360C587E9443ED594 /* framework.cpp in Sources */,
+				7602643360C587E9443ED594 /* platform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

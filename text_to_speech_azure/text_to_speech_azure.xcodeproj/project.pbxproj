@@ -11,16 +11,16 @@
 		228B15F80E08A2F08E271F6E /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CA8F930C36768E886E1822 /* _factory.cpp */; };
 		240E7AD64A1EA9C9AA4AF9E9 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 08745C8A526781C262BBFBE1 /* _.h */; };
 		2DF03E0650FCEE617EFFC251 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 15487E2F6A1F3ADDCE4BA356 /* resource.h */; };
-		35826621A2CBAB1F2B118338 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* framework.h */; };
+		35826621A2CBAB1F2B118338 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* platform.h */; };
 		46CE6DC8A50148F35E86073D /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CA8F930C36768E886E1822 /* _factory.cpp */; };
 		50991DA34C421F913E2B3AA1 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 08745C8A526781C262BBFBE1 /* _.h */; };
 		54725CFEACBB49158F790CB9 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 430D25F1219F18B2734CF62B /* aaa__library.h */; };
 		6DA184578C0E13A633EE3C73 /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F074532C7FA9B2F3E6A327C /* speaker.cpp */; };
-		72DD67FD29094EEA8DAD2285 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* framework.h */; };
-		7477C3595FC73D917FCF6DAF /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* framework.cpp */; };
+		72DD67FD29094EEA8DAD2285 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B0ED80A21D9144C998712F /* platform.h */; };
+		7477C3595FC73D917FCF6DAF /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* platform.cpp */; };
 		77B102719F8D8548965C4B2E /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 63409C0AD0D018896ACACF63 /* speaker.h */; };
 		7C128D1D9606FE6DF37AE724 /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 63409C0AD0D018896ACACF63 /* speaker.h */; };
-		975DE7B2C667791815D7195C /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* framework.cpp */; };
+		975DE7B2C667791815D7195C /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5928E49B9C5A6D9B4CF5820 /* platform.cpp */; };
 		9A459C24300ACF6D00C3258B /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A459C1F300ACF6D00C3258B /* libaqua.dylib */; };
 		AB32013BFFB668B603053B56 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BD66B1070253DB21D7CD5 /* _.cpp */; };
 		ABE1E902494F0799AC5D9D38 /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BD66B1070253DB21D7CD5 /* _.cpp */; };
@@ -72,7 +72,7 @@
 		08745C8A526781C262BBFBE1 /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
 		08FAFFB8989F2B2C7AD93533 /* libios_text_to_speech_azure.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_text_to_speech_azure.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		15487E2F6A1F3ADDCE4BA356 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
-		16B0ED80A21D9144C998712F /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		16B0ED80A21D9144C998712F /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		1D90D79BC9344144B35CC161 /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1BD66B1070253DB21D7CD5 /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
 		3DFE4EEC3160AA46AF579169 /* libacme.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libacme.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +82,7 @@
 		6F074532C7FA9B2F3E6A327C /* speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = speaker.cpp; sourceTree = "<group>"; };
 		8F4B5769B8C380651723A358 /* _____debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		B467D956A200F1E6A572B4DF /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = ../../app/aqua/aqua.xcodeproj; sourceTree = SOURCE_ROOT; };
-		B5928E49B9C5A6D9B4CF5820 /* framework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		B5928E49B9C5A6D9B4CF5820 /* platform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
 		DA3A31FE58DD3BAE19A2AC24 /* libtext_to_speech_azure.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtext_to_speech_azure.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CA8F930C36768E886E1822 /* _factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
 		FA38B86200206B35417F1C2C /* api_azure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_azure.xcodeproj; path = "../../app-interface/api_azure/api_azure.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -153,8 +153,8 @@
 				2B1BD66B1070253DB21D7CD5 /* _.cpp */,
 				E7CA8F930C36768E886E1822 /* _factory.cpp */,
 				430D25F1219F18B2734CF62B /* aaa__library.h */,
-				16B0ED80A21D9144C998712F /* framework.h */,
-				B5928E49B9C5A6D9B4CF5820 /* framework.cpp */,
+				16B0ED80A21D9144C998712F /* platform.h */,
+				B5928E49B9C5A6D9B4CF5820 /* platform.cpp */,
 				15487E2F6A1F3ADDCE4BA356 /* resource.h */,
 				63409C0AD0D018896ACACF63 /* speaker.h */,
 				6F074532C7FA9B2F3E6A327C /* speaker.cpp */,
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C128D1D9606FE6DF37AE724 /* speaker.h in Headers */,
-				35826621A2CBAB1F2B118338 /* framework.h in Headers */,
+				35826621A2CBAB1F2B118338 /* platform.h in Headers */,
 				240E7AD64A1EA9C9AA4AF9E9 /* _.h in Headers */,
 				C915FA8F975047B158DF97B9 /* resource.h in Headers */,
 				54725CFEACBB49158F790CB9 /* aaa__library.h in Headers */,
@@ -183,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B102719F8D8548965C4B2E /* speaker.h in Headers */,
-				72DD67FD29094EEA8DAD2285 /* framework.h in Headers */,
+				72DD67FD29094EEA8DAD2285 /* platform.h in Headers */,
 				50991DA34C421F913E2B3AA1 /* _.h in Headers */,
 				2DF03E0650FCEE617EFFC251 /* resource.h in Headers */,
 				B5F4F0054DCAA0A9017BBFAC /* aaa__library.h in Headers */,
@@ -339,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975DE7B2C667791815D7195C /* framework.cpp in Sources */,
+				975DE7B2C667791815D7195C /* platform.cpp in Sources */,
 				AB32013BFFB668B603053B56 /* _.cpp in Sources */,
 				E0262A2F33E33AA3CB45BACE /* speaker.cpp in Sources */,
 				228B15F80E08A2F08E271F6E /* _factory.cpp in Sources */,
@@ -350,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7477C3595FC73D917FCF6DAF /* framework.cpp in Sources */,
+				7477C3595FC73D917FCF6DAF /* platform.cpp in Sources */,
 				ABE1E902494F0799AC5D9D38 /* _.cpp in Sources */,
 				6DA184578C0E13A633EE3C73 /* speaker.cpp in Sources */,
 				46CE6DC8A50148F35E86073D /* _factory.cpp in Sources */,

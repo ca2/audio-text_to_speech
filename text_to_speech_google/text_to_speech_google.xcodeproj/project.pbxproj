@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		009E494142F945C7B15017BB /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0D0D90FADCA4FD5DC12589 /* _.h */; };
-		0542BE895D414D6B1317D363 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4645274F9F3EB2102295BA1E /* framework.cpp */; };
+		0542BE895D414D6B1317D363 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4645274F9F3EB2102295BA1E /* platform.cpp */; };
 		221E558FFCDECE95E9FC6D1C /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D2C29B4E597E635D367A52 /* _.cpp */; };
 		342E0DEFF3FB1314D60E5C53 /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DCB1F0A22E5A5A8D52F854 /* speaker.h */; };
 		43909609C52C19B73DA1AE9A /* _.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D2C29B4E597E635D367A52 /* _.cpp */; };
 		5478B15C0FD8876B447A6E1F /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0799A1600FAD342F15E6905E /* resource.h */; };
-		653EB69DC649779C3BDDAD2A /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EA1A7C2F6C906F6BE0C466 /* framework.h */; };
+		653EB69DC649779C3BDDAD2A /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EA1A7C2F6C906F6BE0C466 /* platform.h */; };
 		745D3E2218920681F6ACCF4F /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB08D83163B7C8964409FCA4 /* speaker.cpp */; };
 		819D1DDF07AABBEC665E5802 /* libacme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ABB41B3BE55E3E3358C315 /* libacme.dylib */; };
 		8A1E160D00FB26B0F32A61D9 /* speaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DCB1F0A22E5A5A8D52F854 /* speaker.h */; };
 		988F2588C30672A4E3D1BFD3 /* _factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF230CE032869324383320 /* _factory.cpp */; };
 		9A459C29300ACF8400C3258B /* libaqua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A459C17300AC93A00C3258B /* libaqua.dylib */; };
 		BBC1F89AA789ED5CCB767697 /* aaa__library.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B79ACD480AD1D617C60AB99 /* aaa__library.h */; };
-		BCEF471280CBB6B083D28470 /* framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4645274F9F3EB2102295BA1E /* framework.cpp */; };
+		BCEF471280CBB6B083D28470 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4645274F9F3EB2102295BA1E /* platform.cpp */; };
 		C6B384170775B0E02A7A29ED /* libapex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C941E246AF5525739D804BF /* libapex.dylib */; };
-		C912C785EC5C572369BCE5AC /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EA1A7C2F6C906F6BE0C466 /* framework.h */; };
+		C912C785EC5C572369BCE5AC /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EA1A7C2F6C906F6BE0C466 /* platform.h */; };
 		CB7C503DDF973532E2073CE9 /* speaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB08D83163B7C8964409FCA4 /* speaker.cpp */; };
 		D783A984FB4E147122FD23A1 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0799A1600FAD342F15E6905E /* resource.h */; };
 		E1C8451CD570B205153B2F74 /* _.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0D0D90FADCA4FD5DC12589 /* _.h */; };
@@ -66,11 +66,11 @@
 		0799A1600FAD342F15E6905E /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
 		3ECF230CE032869324383320 /* _factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
 		42DB53108B01A8797DF1879F /* _____release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
-		4645274F9F3EB2102295BA1E /* framework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framework.cpp; sourceTree = "<group>"; };
+		4645274F9F3EB2102295BA1E /* platform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = platform.cpp; sourceTree = "<group>"; };
 		68D2C29B4E597E635D367A52 /* _.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _.cpp; sourceTree = "<group>"; };
 		6C941E246AF5525739D804BF /* libapex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libapex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0D0D90FADCA4FD5DC12589 /* _.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _.h; sourceTree = "<group>"; };
-		92EA1A7C2F6C906F6BE0C466 /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
+		92EA1A7C2F6C906F6BE0C466 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		9A2D7943300AB8C400EACDF1 /* api_google.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = api_google.xcodeproj; path = "../../app-interface/api_google/api_google.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9AA1961F300AC798002D8D58 /* aqua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = aqua.xcodeproj; path = ../../app/aqua/aqua.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9B79ACD480AD1D617C60AB99 /* aaa__library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa__library.h; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				68D2C29B4E597E635D367A52 /* _.cpp */,
 				3ECF230CE032869324383320 /* _factory.cpp */,
 				9B79ACD480AD1D617C60AB99 /* aaa__library.h */,
-				92EA1A7C2F6C906F6BE0C466 /* framework.h */,
-				4645274F9F3EB2102295BA1E /* framework.cpp */,
+				92EA1A7C2F6C906F6BE0C466 /* platform.h */,
+				4645274F9F3EB2102295BA1E /* platform.cpp */,
 				0799A1600FAD342F15E6905E /* resource.h */,
 				E0DCB1F0A22E5A5A8D52F854 /* speaker.h */,
 				BB08D83163B7C8964409FCA4 /* speaker.cpp */,
@@ -167,7 +167,7 @@
 				8A1E160D00FB26B0F32A61D9 /* speaker.h in Headers */,
 				D783A984FB4E147122FD23A1 /* resource.h in Headers */,
 				E1C8451CD570B205153B2F74 /* _.h in Headers */,
-				653EB69DC649779C3BDDAD2A /* framework.h in Headers */,
+				653EB69DC649779C3BDDAD2A /* platform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 				342E0DEFF3FB1314D60E5C53 /* speaker.h in Headers */,
 				5478B15C0FD8876B447A6E1F /* resource.h in Headers */,
 				009E494142F945C7B15017BB /* _.h in Headers */,
-				C912C785EC5C572369BCE5AC /* framework.h in Headers */,
+				C912C785EC5C572369BCE5AC /* platform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +334,7 @@
 				988F2588C30672A4E3D1BFD3 /* _factory.cpp in Sources */,
 				221E558FFCDECE95E9FC6D1C /* _.cpp in Sources */,
 				CB7C503DDF973532E2073CE9 /* speaker.cpp in Sources */,
-				BCEF471280CBB6B083D28470 /* framework.cpp in Sources */,
+				BCEF471280CBB6B083D28470 /* platform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +345,7 @@
 				EDC6F1E5430CEADC6992FD18 /* _factory.cpp in Sources */,
 				43909609C52C19B73DA1AE9A /* _.cpp in Sources */,
 				745D3E2218920681F6ACCF4F /* speaker.cpp in Sources */,
-				0542BE895D414D6B1317D363 /* framework.cpp in Sources */,
+				0542BE895D414D6B1317D363 /* platform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

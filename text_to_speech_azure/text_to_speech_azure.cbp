@@ -123,10 +123,10 @@
 		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/_factory.cpp">
 			<Option target="text_to_speech_azure"/>
 		</Unit>
-		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/framework.cpp">
+		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/platform.cpp">
 			<Option target="text_to_speech_azure"/>
 		</Unit>
-		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/framework.h">
+		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/platform.h">
 			<Option target="text_to_speech_azure"/>
 		</Unit>
 		<Unit filename="/home/camilo/solution/basis/source/app-core/text_to_speech_azure/speaker.cpp">
