@@ -223,16 +223,10 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticDebug|ARM64'">true</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticRelease|ARM64'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">false</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">false</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticDebug|ARM64'">false</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticRelease|ARM64'">false</GenerateManifest>
     <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
@@ -299,9 +293,6 @@
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
       <OptimizeReferences>false</OptimizeReferences>
       <LinkTimeCodeGeneration>
       </LinkTimeCodeGeneration>
@@ -436,15 +427,10 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\library\;$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\;$(OutDir)</AdditionalLibraryDirectories>
-      <IgnoreAllDefaultLibraries>
-      </IgnoreAllDefaultLibraries>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
       <ShowProgress>NotSet</ShowProgress>
       <MergeSections>
       </MergeSections>
@@ -597,9 +583,6 @@
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <MapFileName>
       </MapFileName>
       <OptimizeReferences>false</OptimizeReferences>
@@ -663,9 +646,6 @@
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <MapFileName>
       </MapFileName>
       <OptimizeReferences>false</OptimizeReferences>
@@ -863,15 +843,10 @@
       <AdditionalIncludeDirectories>$(SolutionDir)../../../source</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <IgnoreAllDefaultLibraries>
-      </IgnoreAllDefaultLibraries>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <MapFileName>$(TargetDir)$(TargetName).map</MapFileName>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>
@@ -923,15 +898,10 @@
       <AdditionalIncludeDirectories>$(SolutionDir)../../../source</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <IgnoreAllDefaultLibraries>
-      </IgnoreAllDefaultLibraries>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <IgnoreSpecificDefaultLibraries>
-      </IgnoreSpecificDefaultLibraries>
-      <AdditionalDependencies>Gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <MapFileName>$(TargetDir)$(TargetName).map</MapFileName>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>
