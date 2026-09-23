@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.16)
 project(text_to_speech_streamelements CXX)
 
 
+message("PROJECT_NAME = ${PROJECT_NAME}")
+
+
 list(APPEND library_source
         _.cpp
         _.h
@@ -42,7 +45,7 @@ if(${WIN32})
     target_link_options(${PROJECT_NAME} PRIVATE "/IMPLIB:${LIBRARY_OUTPUT_PATH}/text_to_speech_streamelements.lib")
     target_link_options(${PROJECT_NAME} PRIVATE "/DEF:${CMAKE_CURRENT_SOURCE_DIR}/text_to_speech_streamelements.def")
     target_link_libraries(${PROJECT_NAME} PRIVATE acme apex aqua aura Gdiplus)
-elseif(${LINUX} OR ${ANDROID})
+elseif(${LINUX} OR ${__ANDROID__})
        target_compile_options(${PROJECT_NAME} PRIVATE ${${PROJECT_NAME}_PKGCONFIG_CFLAGS})
 target_compile_options(static_${PROJECT_NAME} PRIVATE ${${PROJECT_NAME}_PKGCONFIG_CFLAGS})
    target_link_options(${PROJECT_NAME} PRIVATE ${${PROJECT_NAME}_PKGCONFIG_LDFLAGS})
