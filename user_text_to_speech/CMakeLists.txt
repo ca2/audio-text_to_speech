@@ -27,6 +27,18 @@ list(APPEND library_source
 add_library(${PROJECT_NAME} SHARED ${library_source})
 add_library(static_${PROJECT_NAME} STATIC ${library_source})
 
+# These providers are offered by the Options form and loaded dynamically.
+# Build them with the form library without adding runtime link dependencies.
+set(text_to_speech_provider_dependencies
+   text_to_speech_azure
+   text_to_speech_google
+   text_to_speech_streamelements)
+if(WIN32)
+   list(APPEND text_to_speech_provider_dependencies text_to_speech_sapi)
+endif()
+add_dependencies(${PROJECT_NAME} ${text_to_speech_provider_dependencies})
+add_dependencies(static_${PROJECT_NAME} ${text_to_speech_provider_dependencies})
+
 if (NOT ${NO_PRECOMPILED_HEADER})
 
     target_precompile_headers(${PROJECT_NAME} PRIVATE platform.h)
