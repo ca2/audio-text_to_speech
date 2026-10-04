@@ -292,6 +292,14 @@ namespace text_to_speech_streamelements
 
       http()->download(pfile, "https://api.streamelements.com/kappa/v2/speech?voice="_ansi + strVoice + "&text="_ansi + strEncode, set);
 
+      int statusCode = set["http_status_code"];
+      if (statusCode < 200 || statusCode >= 300)
+      {
+         warning() << "StreamElements speech request failed: HTTP " << statusCode
+            << "; response will not be played as audio";
+         return;
+      }
+
       auto paudio = system()->audio();
 
       paudio->play_audio(pfile, esynchronicity);
@@ -337,6 +345,14 @@ namespace text_to_speech_streamelements
       strEncode = ::url::encode(scopedstrTextParam);
 
       http()->download(pfile, "https://api.streamelements.com/kappa/v2/speech?voice=Joey&text="_ansi + strEncode, set);
+
+      int statusCode = set["http_status_code"];
+      if (statusCode < 200 || statusCode >= 300)
+      {
+         warning() << "StreamElements speech request failed: HTTP " << statusCode
+            << "; response will not be played as audio";
+         return;
+      }
 
       auto paudio = system()->audio();
 
