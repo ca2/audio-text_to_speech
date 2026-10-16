@@ -81,3 +81,14 @@ target_include_directories(static_${PROJECT_NAME} PRIVATE ${library_include_dire
 
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE _${PROJECT_NAME}_project)
+
+# SAPI speaker calls the nano speech implementation directly.
+if(WIN32)
+    target_link_libraries(${PROJECT_NAME} PRIVATE nano_speech_sapi sapi shlwapi)
+    target_link_libraries(static_${PROJECT_NAME} PRIVATE nano_speech_sapi sapi shlwapi)
+endif()
+
+if(MINGW)
+    target_sources(${PROJECT_NAME} PRIVATE sapi_guids_mingw.cpp)
+    target_sources(static_${PROJECT_NAME} PRIVATE sapi_guids_mingw.cpp)
+endif()

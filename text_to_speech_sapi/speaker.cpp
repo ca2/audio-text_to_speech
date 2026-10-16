@@ -361,7 +361,15 @@ namespace text_to_speech_sapi
 
       comptr < IStream > pStream;
 
+#if defined(__REACTOS__)
+      // SHCreateMemStream is not exported by name on Windows XP.
+      if (FAILED(::CreateStreamOnHGlobal(nullptr, TRUE, &pStream)))
+      {
+         throw ::exception(error_failed);
+      }
+#else
       pStream = SHCreateMemStream(nullptr, 0);
+#endif
 
       if (pStream.is_null())
       {
@@ -579,7 +587,15 @@ namespace text_to_speech_sapi
 
       comptr < IStream > pStream;
 
+#if defined(__REACTOS__)
+      // SHCreateMemStream is not exported by name on Windows XP.
+      if (FAILED(::CreateStreamOnHGlobal(nullptr, TRUE, &pStream)))
+      {
+         throw ::exception(error_failed);
+      }
+#else
       pStream = SHCreateMemStream(nullptr, 0);
+#endif
 
       if (pStream.is_null())
       {
